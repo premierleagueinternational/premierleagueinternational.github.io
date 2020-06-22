@@ -1,0 +1,74 @@
+[
+	{
+		"nationality" : "England",
+		"Team" : "Burnley ",
+		"LongCentroid" : -1.464854,
+		"LatCentroid" : 52.561928,
+		"PlayersNames" : "James Tarkowski;Nick Pope;Ashley Barnes;Ben Mee;Joe Hart;Danny Drinkwater;Ashley Westwood;Charlie Taylor;Jack Cork;Jay Rodriguez;Matthew Lowton;Dwight McNeil;Ben Gibson;Aaron  Lennon;Adam Legzdins;Josh Benson;Adam Phillips;Ali Koiki;Robert Harker;Ryan Cooney;Anthony Driscoll-Glennon;George McMahon",
+		"PlayersNr" : 22
+	},
+	{
+		"nationality" : "Netherlands",
+		"Team" : "Burnley ",
+		"LongCentroid" : 5.28144793,
+		"LatCentroid" : 52.1007899,
+		"PlayersNames" : "Erik Pieters",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Iceland",
+		"Team" : "Burnley ",
+		"LongCentroid" : -18.57396167,
+		"LatCentroid" : 64.99575386,
+		"PlayersNames" : "Johann  Berg Guðmunds­son",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Belgium",
+		"Team" : "Burnley ",
+		"LongCentroid" : 4.64065114,
+		"LatCentroid" : 50.63981576,
+		"PlayersNames" : "Steven Defour",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Scotland",
+		"Team" : "Burnley ",
+		"LongCentroid" : -4.183963,
+		"LatCentroid" : 56.816738,
+		"PlayersNames" : "Phil Bardsley",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "New Zealand",
+		"Team" : "Burnley ",
+		"LongCentroid" : 171.48492347,
+		"LatCentroid" : -41.81113557,
+		"PlayersNames" : "Chris Wood",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Czech Republic",
+		"Team" : "Burnley ",
+		"LongCentroid" : 15.31240163,
+		"LatCentroid" : 49.73341233,
+		"PlayersNames" : "Matěj Vydra",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Northern Ireland",
+		"Team" : "Burnley ",
+		"LongCentroid" : -6.693145,
+		"LatCentroid" : 54.607577,
+		"PlayersNames" : "Bailey Peacock-Farrell",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Republic of Ireland",
+		"Team" : "Burnley ",
+		"LongCentroid" : -8.13793569,
+		"LatCentroid" : 53.1754487,
+		"PlayersNames" : "Robbie Brady;Jeff Hendrick;Kevin Long;Jimmy Dunne",
+		"PlayersNr" : 4
+	}
+]

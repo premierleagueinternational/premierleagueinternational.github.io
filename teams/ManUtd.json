@@ -1,0 +1,114 @@
+[
+	{
+		"nationality" : "Spain",
+		"Team" : "Manchester United ",
+		"LongCentroid" : -3.64755047,
+		"LatCentroid" : 40.24448698,
+		"PlayersNames" : "David De Gea Quintana;Juan Manuel Mata García",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Ivory Coast",
+		"Team" : "Manchester United ",
+		"LongCentroid" : -5.5692157,
+		"LatCentroid" : 7.6284262,
+		"PlayersNames" : "Eric Bailly",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Scotland",
+		"Team" : "Manchester United ",
+		"LongCentroid" : -4.183963,
+		"LatCentroid" : 56.816738,
+		"PlayersNames" : "Scott McTominay",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Serbia",
+		"Team" : "Manchester United ",
+		"LongCentroid" : 20.78958334,
+		"LatCentroid" : 44.2215032,
+		"PlayersNames" : "Nemanja Matić",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Brazil",
+		"Team" : "Manchester United ",
+		"LongCentroid" : -53.09783113,
+		"LatCentroid" : -10.78777702,
+		"PlayersNames" : "Frederico R. de Paula Santos;Andreas Hugo Hoelgebaum Pereira",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Portugal",
+		"Team" : "Manchester United ",
+		"LongCentroid" : -8.50104361,
+		"LatCentroid" : 39.59550671,
+		"PlayersNames" : "José Diogo Dalot Teixeira",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Sweden",
+		"Team" : "Manchester United ",
+		"LongCentroid" : 16.74558049,
+		"LatCentroid" : 62.77966519,
+		"PlayersNames" : "Victor Nilsson Lindelöf",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Argentina",
+		"Team" : "Manchester United ",
+		"LongCentroid" : -65.17980692,
+		"LatCentroid" : -35.3813488,
+		"PlayersNames" : "Sergio Germán Romero;Faustino Marcos Alberto Rojo",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "France",
+		"Team" : "Manchester United ",
+		"LongCentroid" : -2.76172945,
+		"LatCentroid" : 42.17344011,
+		"PlayersNames" : "Paul Pogba;Anthony Martial",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Italy",
+		"Team" : "Manchester United ",
+		"LongCentroid" : 12.07001339,
+		"LatCentroid" : 42.79662641,
+		"PlayersNames" : "Matteo Darmian",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Netherlands",
+		"Team" : "Manchester United ",
+		"LongCentroid" : 5.28144793,
+		"LatCentroid" : 52.1007899,
+		"PlayersNames" : "Timothy Evans Fosu-Mensah;Tahith Chong",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "England",
+		"Team" : "Manchester United ",
+		"LongCentroid" : -1.464854,
+		"LatCentroid" : 52.561928,
+		"PlayersNames" : "Marcus Rashford;Harry Maguire;Jesse Lingard;Luke Shaw;Chris Smalling;Aaron Wan-Bissaka;Phil Jones;Ashley Young;Axel Tuanzebe;Lee Grant;Angel Gomes;Mason Greenwood;Cameron Borthwick-Jackson;Demetri Mitchell;James Garner",
+		"PlayersNr" : 15
+	},
+	{
+		"nationality" : "Chile",
+		"Team" : "Manchester United ",
+		"LongCentroid" : -71.38256213,
+		"LatCentroid" : -37.73070989,
+		"PlayersNames" : "Alexis Alejandro Sánchez Sánchez",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Wales",
+		"Team" : "Manchester United ",
+		"LongCentroid" : -3.766409,
+		"LatCentroid" : 52.33022,
+		"PlayersNames" : "Daniel James",
+		"PlayersNr" : 1
+	}
+]

@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <title> Premier League roots </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- deck.gl standalone bundle -->
+    <script src="https://unpkg.com/deck.gl@^8.1.0/dist.min.js"></script>
+
+    <!-- Mapbox dependencies -->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.0/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.0/mapbox-gl.css" rel="stylesheet" />
+  </head>
+
+  <body>
+
+    <div id="control">
+      <div class="titel" id="titel-image">
+        <img src="/PremierLeague.png" alt="not supported"/>
+      </div> 
+    </div>
+<!-- ALL Clubs button -->
+<input type="button" class="allButton" value="On" id="onoffAll" onclick="onoffAllClubs();">
+
+<!-- Single Clubs buttons -->
+<input type="button" class="bournemouthButton" value="On" id="onoff" onclick="onoffBournemouth();">
+<input type="button" class="AstonVillaButton" value="On" id="onoffAston" onclick="onoffAstonVilla();">
+<input type="button" class="ArsenalButton" value="On" id="onoffArs" onclick="onoffArsenal();">
+<input type="button" class="BrightonButton" value="On" id="onoffBri" onclick="onoffBrighton();">
+<input type="button" class="BurnleyButton" value="On" id="onoffBur" onclick="onoffBurnley();">
+<input type="button" class="ChelseaButton" value="On" id="onoffChe" onclick="onoffChelsea();">
+<input type="button" class="CrystalPalaceButton" value="On" id="onoffCry" onclick="onoffCrystalPalace();">
+<input type="button" class="EvertonButton" value="On" id="onoffEve" onclick="onoffEverton();">
+<input type="button" class="LeicesterButton" value="On" id="onoffLei" onclick="onoffLeicester();">
+<input type="button" class="LiverpoolButton" value="On" id="onoffLiv" onclick="onoffLiverpool();">
+<input type="button" class="ManCityButton" value="On" id="onoffManC" onclick="onoffManCity();">
+<input type="button" class="ManUnitedButton" value="On" id="onoffManU" onclick="onoffManUnited();">
+<input type="button" class="NewcastleButton" value="On" id="onoffNew" onclick="onoffNewcastle();">
+<input type="button" class="NorwichButton" value="On" id="onoffNor" onclick="onoffNorwich();">
+<input type="button" class="SheffieldUtdButton" value="On" id="onoffSheff" onclick="onoffSheffieldUtd();">
+<input type="button" class="SouthamptonButton" value="On" id="onoffSouth" onclick="onoffSouthampton();">
+<input type="button" class="TottenhamButton" value="On" id="onoffTott" onclick="onoffTottenham();">
+<input type="button" class="WatfordButton" value="On" id="onoffWatf" onclick="onoffWatford();">
+<input type="button" class="WestHamButton" value="On" id="onoffWest" onclick="onoffWestHam();">
+<input type="button" class="WolverhamptonButton" value="On" id="onoffWolv" onclick="onoffWolverhampton();">
+
+
+    <div id="tooltip"></div>
+    <div id="container"></div>
+    
+  </body>
+
+  <script type="text/javascript" src="app.js"></script>
+
+</html>

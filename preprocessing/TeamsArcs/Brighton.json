@@ -1,0 +1,146 @@
+[
+	{
+		"nationality" : "Australia",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : 134.49100008,
+		"LatCentroid" : -25.73288704,
+		"PlayersNames" : "Mathew Ryan;Aaron Mooy",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Mali",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : -3.54269065,
+		"LatCentroid" : 17.34581581,
+		"PlayersNames" : "Yves Bissouma",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Spain",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : -3.64755047,
+		"LatCentroid" : 40.24448698,
+		"PlayersNames" : "Martín Montoya Torralbo",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Colombia",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : -73.08114582,
+		"LatCentroid" : 3.91383431,
+		"PlayersNames" : "José Heriberto Izquierdo Mena",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Romania",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : 24.97293039,
+		"LatCentroid" : 45.85243127,
+		"PlayersNames" : "Florin Andone;Tudor Băluță",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Denmark",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : 10.02800992,
+		"LatCentroid" : 55.98125296,
+		"PlayersNames" : "Anders Dreyer",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Israel",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : 35.00444693,
+		"LatCentroid" : 31.46110101,
+		"PlayersNames" : "Tomer Hemed",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Iran",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : 54.27407004,
+		"LatCentroid" : 32.57503292,
+		"PlayersNames" : "Alireza Jahanbakhsh",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Brazil",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : -53.09783113,
+		"LatCentroid" : -10.78777702,
+		"PlayersNames" : "Bernardo Fernandes da Silva Junior",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Germany",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : 10.38578051,
+		"LatCentroid" : 51.10698181,
+		"PlayersNames" : "Pascal Groß",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Nigeria",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : 8.08943895,
+		"LatCentroid" : 9.59411452,
+		"PlayersNames" : "Leon-Aderemi Balogun",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Republic of Ireland",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : -8.13793569,
+		"LatCentroid" : 53.1754487,
+		"PlayersNames" : "Shane Duffy;Aaron Anthony Connolly",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Netherlands",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : 5.28144793,
+		"LatCentroid" : 52.1007899,
+		"PlayersNames" : "Davy Pröpper;Jürgen Locadia;Soufyan Ahannach",
+		"PlayersNr" : 3
+	},
+	{
+		"nationality" : "Belgium",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : 4.64065114,
+		"LatCentroid" : 50.63981576,
+		"PlayersNames" : "Leandro Trossard",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "France",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : -2.76172945,
+		"LatCentroid" : 42.17344011,
+		"PlayersNames" : "Neal Maupay",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "England",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : -1.464854,
+		"LatCentroid" : 52.561928,
+		"PlayersNames" : "Lewis Dunk;Glenn Murray;Dale Stephens;Solly March;Adam Webster;Dan Burn;Jason Steele;David Button;James Tilley;Max Harrison Sanders;Steven Alzate",
+		"PlayersNr" : 11
+	},
+	{
+		"nationality" : "Cameroon",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : 12.73964156,
+		"LatCentroid" : 5.69109849,
+		"PlayersNames" : "Gaëtan Bong Songo",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Italy",
+		"Team" : "Brighton & Hove Albion ",
+		"LongCentroid" : 12.07001339,
+		"LatCentroid" : 42.79662641,
+		"PlayersNames" : "Ezequiel Schelotto",
+		"PlayersNr" : 1
+	}
+]

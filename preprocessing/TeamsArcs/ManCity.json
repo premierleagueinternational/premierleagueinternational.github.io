@@ -1,0 +1,106 @@
+[
+	{
+		"nationality" : "Belgium",
+		"Team" : "Manchester City ",
+		"LongCentroid" : 4.64065114,
+		"LatCentroid" : 50.63981576,
+		"PlayersNames" : "Kevin De Bruyne",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Algeria",
+		"Team" : "Manchester City ",
+		"LongCentroid" : 2.61732301,
+		"LatCentroid" : 28.15893849,
+		"PlayersNames" : "Riyad Mahrez",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Spain",
+		"Team" : "Manchester City ",
+		"LongCentroid" : -3.64755047,
+		"LatCentroid" : 40.24448698,
+		"PlayersNames" : "David Josué Jiménez Silva;Rodrigo Hernández Cascante;José Ángel Esmoris Tasende;Aleix García Serrano;Eric García Martret",
+		"PlayersNr" : 5
+	},
+	{
+		"nationality" : "Switzerland",
+		"Team" : "Manchester City ",
+		"LongCentroid" : 8.20867471,
+		"LatCentroid" : 46.79785878,
+		"PlayersNames" : "Lorenzo Gonzalez",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Brazil",
+		"Team" : "Manchester City ",
+		"LongCentroid" : -53.09783113,
+		"LatCentroid" : -10.78777702,
+		"PlayersNames" : "Ederson Santana de Moraes;Fernando Luiz Rosa;Gabriel Fernando de Jesus",
+		"PlayersNr" : 3
+	},
+	{
+		"nationality" : "Portugal",
+		"Team" : "Manchester City ",
+		"LongCentroid" : -8.50104361,
+		"LatCentroid" : 39.59550671,
+		"PlayersNames" : "Bernardo Mota Veiga de Carvalho e Silva;João Pedro Cavaco Cancelo",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Germany",
+		"Team" : "Manchester City ",
+		"LongCentroid" : 10.38578051,
+		"LatCentroid" : 51.10698181,
+		"PlayersNames" : "Leroy Sané;İlkay Gündoğan",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Argentina",
+		"Team" : "Manchester City ",
+		"LongCentroid" : -65.17980692,
+		"LatCentroid" : -35.3813488,
+		"PlayersNames" : "Sergio Leonel Agüero del Castillo;Nicolás Hernán Otamendi;Benjamín Garré",
+		"PlayersNr" : 3
+	},
+	{
+		"nationality" : "France",
+		"Team" : "Manchester City ",
+		"LongCentroid" : -2.76172945,
+		"LatCentroid" : 42.17344011,
+		"PlayersNames" : "Aymeric  Laporte;Benjamin Mendy;Claudio Gomes",
+		"PlayersNr" : 3
+	},
+	{
+		"nationality" : "Republic of Ireland",
+		"Team" : "Manchester City ",
+		"LongCentroid" : -8.13793569,
+		"LatCentroid" : 53.1754487,
+		"PlayersNames" : "Gavin Bazunu;Tyreke Wilson",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "England",
+		"Team" : "Manchester City ",
+		"LongCentroid" : -1.464854,
+		"LatCentroid" : 52.561928,
+		"PlayersNames" : "Raheem Sterling;Kyle Walker;John Stones;Philip Foden;Scott  Carson;Felix Nmecha;Joel Latibeaudiere;Daniel Grimshaw",
+		"PlayersNr" : 8
+	},
+	{
+		"nationality" : "Chile",
+		"Team" : "Manchester City ",
+		"LongCentroid" : -71.38256213,
+		"LatCentroid" : -37.73070989,
+		"PlayersNames" : "Claudio Andrés Bravo Muñoz",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Ukraine",
+		"Team" : "Manchester City ",
+		"LongCentroid" : 31.38326469,
+		"LatCentroid" : 48.99656673,
+		"PlayersNames" : "Oleksandr Zinchenko",
+		"PlayersNr" : 1
+	}
+]

@@ -1,0 +1,406 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "NewFeatureType",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.960828, 53.430819 ]
+			},
+			"properties" : {
+				"Team" : "Liverpool ",
+				"FDCOUK" : "Liverpool",
+				"City" : "Liverpool ",
+				"Stadium" : "Anfield ",
+				"Capacity" : 45276,
+				"Latitude" : 53.430819,
+				"Longitude" : -2.960828,
+				"Country" : "England",
+				"nrOfNations" : 15,
+				"listOfNations" : "England, Belgium, Senegal, Republic of Ireland, Cameroon, Croatia, Germany, Brazil, Switzerland, Guinea, Spain, Egypt, Algeria, Scotland, Netherlands",
+				"listOfNationsPlayers" : "England: 13, Belgium: 1, Senegal: 1, Republic of Ireland: 1, Cameroon: 1, Croatia: 1, Germany: 1, Brazil: 3, Switzerland: 1, Guinea: 1, Spain: 2, Egypt: 1, Algeria: 1, Scotland: 1, Netherlands: 4"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -1.142222, 52.620278 ]
+			},
+			"properties" : {
+				"Team" : "Leicester City ",
+				"FDCOUK" : "Leicester",
+				"City" : "Leicester ",
+				"Stadium" : "King Power Stadium ",
+				"Capacity" : 32500,
+				"Latitude" : 52.620278,
+				"Longitude" : -1.142222,
+				"Country" : "England",
+				"nrOfNations" : 19,
+				"listOfNations" : "Northern Ireland, Belgium, Croatia, Poland, Portugal, Turkey, Algeria, Switzerland, Austria, Jamaica, Romania, England, France, Nigeria, Ghana, Spain, Wales, Mali, Denmark",
+				"listOfNationsPlayers" : "Northern Ireland: 1, Belgium: 2, Croatia: 1, Poland: 1, Portugal: 2, Turkey: 1, Algeria: 2, Switzerland: 1, Austria: 1, Jamaica: 1, Romania: 1, England: 10, France: 1, Nigeria: 2, Ghana: 1, Spain: 1, Wales: 2, Mali: 1, Denmark: 1"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.200292, 53.482989 ]
+			},
+			"properties" : {
+				"Team" : "Manchester City ",
+				"FDCOUK" : "Man City",
+				"City" : "Manchester ",
+				"Stadium" : "Etihad Stadium",
+				"Capacity" : 47405,
+				"Latitude" : 53.482989,
+				"Longitude" : -2.200292,
+				"Country" : "England",
+				"nrOfNations" : 13,
+				"listOfNations" : "Ukraine, Chile, England, Republic of Ireland, France, Argentina, Germany, Portugal, Brazil, Switzerland, Spain, Algeria, Belgium",
+				"listOfNationsPlayers" : "Ukraine: 1, Chile: 1, England: 8, Republic of Ireland: 2, France: 3, Argentina: 3, Germany: 2, Portugal: 2, Brazil: 3, Switzerland: 1, Spain: 5, Algeria: 1, Belgium: 1"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -0.065833, 51.603333 ]
+			},
+			"properties" : {
+				"Team" : "Tottenham Hotspur ",
+				"FDCOUK" : "Tottenham",
+				"City" : "London ",
+				"Stadium" : "White Hart Lane ",
+				"Capacity" : 36230,
+				"Latitude" : 51.603333,
+				"Longitude" : -0.065833,
+				"Country" : "England",
+				"nrOfNations" : 13,
+				"listOfNations" : "Republic of Ireland, France, Belgium, Wales, Argentina, Kenya, Brazil, Cyprus, Denmark, Colombia, Korea Republic, Ivory Coast, England",
+				"listOfNationsPlayers" : "Republic of Ireland: 1, France: 4, Belgium: 2, Wales: 1, Argentina: 4, Kenya: 1, Brazil: 1, Cyprus: 2, Denmark: 1, Colombia: 1, Korea Republic: 1, Ivory Coast: 1, England: 13"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.291389, 53.463056 ]
+			},
+			"properties" : {
+				"Team" : "Manchester United ",
+				"FDCOUK" : "Man United",
+				"City" : "Stretford ",
+				"Stadium" : "Old Trafford ",
+				"Capacity" : 75811,
+				"Latitude" : 53.463056,
+				"Longitude" : -2.291389,
+				"Country" : "England",
+				"nrOfNations" : 14,
+				"listOfNations" : "Wales, Chile, England, Netherlands, Italy, France, Argentina, Sweden, Portugal, Brazil, Serbia, Scotland, Ivory Coast, Spain",
+				"listOfNationsPlayers" : "Wales: 1, Chile: 1, England: 15, Netherlands: 2, Italy: 1, France: 2, Argentina: 2, Sweden: 1, Portugal: 1, Brazil: 2, Serbia: 1, Scotland: 1, Ivory Coast: 1, Spain: 2"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -0.191111, 51.481667 ]
+			},
+			"properties" : {
+				"Team" : "Chelsea ",
+				"FDCOUK" : "Chelsea",
+				"City" : "London ",
+				"Stadium" : "Stamford Bridge ",
+				"Capacity" : 42449,
+				"Latitude" : 51.481667,
+				"Longitude" : -0.191111,
+				"Country" : "England",
+				"nrOfNations" : 15,
+				"listOfNations" : "England, Belgium, Italy, Netherlands, Argentina, Croatia, Germany, Jamaica, Brazil, Ghana, United States, Denmark, Spain, Scotland, France",
+				"listOfNationsPlayers" : "England: 9, Belgium: 1, Italy: 3, Netherlands: 1, Argentina: 1, Croatia: 1, Germany: 1, Jamaica: 1, Brazil: 3, Ghana: 1, United States: 1, Denmark: 1, Spain: 4, Scotland: 1, France: 4"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -1.470833, 53.370278 ]
+			},
+			"properties" : {
+				"Team" : "Sheffield United",
+				"FDCOUK" : "Sheffield United",
+				"City" : "Sheffield",
+				"Stadium" : "Bramall Lane",
+				"Capacity" : 33000,
+				"Latitude" : 53.370278,
+				"Longitude" : -1.470833,
+				"Country" : "England",
+				"nrOfNations" : 8,
+				"listOfNations" : "Republic of Ireland, France, Bosnia Herzegovina, Northern Ireland, Wales, Netherlands, Scotland, England",
+				"listOfNationsPlayers" : "Republic of Ireland: 6, France: 1, Bosnia Herzegovina: 1, Northern Ireland: 1, Wales: 1, Netherlands: 1, Scotland: 2, England: 20"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.966389, 53.438889 ]
+			},
+			"properties" : {
+				"Team" : "Everton ",
+				"FDCOUK" : "Everton",
+				"City" : "Liverpool ",
+				"Stadium" : "Goodison Park ",
+				"Capacity" : 40157,
+				"Latitude" : 53.438889,
+				"Longitude" : -2.966389,
+				"Country" : "England",
+				"nrOfNations" : 18,
+				"listOfNations" : "Iceland, DR Congo, England, Italy, Belgium, Netherlands, Republic of Ireland, Nigeria, Portugal, Brazil, Denmark, Turkey, Colombia, Scotland, Curacao, Senegal, Ivory Coast, France",
+				"listOfNationsPlayers" : "Iceland: 1, DR Congo: 2, England: 12, Italy: 1, Belgium: 1, Netherlands: 1, Republic of Ireland: 1, Nigeria: 1, Portugal: 1, Brazil: 2, Denmark: 1, Turkey: 1, Colombia: 1, Scotland: 1, Curacao: 1, Senegal: 1, Ivory Coast: 1, France: 3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.230278, 53.789167 ]
+			},
+			"properties" : {
+				"Team" : "Burnley ",
+				"FDCOUK" : "Burnley",
+				"City" : "Burnley ",
+				"Stadium" : "Turf Moor ",
+				"Capacity" : 22546,
+				"Latitude" : 53.789167,
+				"Longitude" : -2.230278,
+				"Country" : "England",
+				"nrOfNations" : 9,
+				"listOfNations" : "Republic of Ireland, Northern Ireland, Czech Republic, New Zealand, Scotland, Belgium, Iceland, Netherlands, England",
+				"listOfNationsPlayers" : "Republic of Ireland: 4, Northern Ireland: 1, Czech Republic: 1, New Zealand: 1, Scotland: 1, Belgium: 1, Iceland: 1, Netherlands: 1, England: 22"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -0.108611, 51.555 ]
+			},
+			"properties" : {
+				"Team" : "Arsenal ",
+				"FDCOUK" : "Arsenal",
+				"City" : "London ",
+				"Stadium" : "Emirates Stadium ",
+				"Capacity" : 60361,
+				"Latitude" : 51.555,
+				"Longitude" : -0.108611,
+				"Country" : "England",
+				"nrOfNations" : 17,
+				"listOfNations" : "England, Wales, Argentina, France, Nigeria, Germany, Brazil, Armenia, Switzerland, Egypt, Uruguay, Spain, Scotland, Greece, Bosnia Herzegovina, Ivory Coast, Gabon",
+				"listOfNationsPlayers" : "England: 10, Wales: 1, Argentina: 1, France: 2, Nigeria: 1, Germany: 3, Brazil: 2, Armenia: 1, Switzerland: 1, Egypt: 1, Uruguay: 1, Spain: 3, Scotland: 1, Greece: 2, Bosnia Herzegovina: 1, Ivory Coast: 1, Gabon: 1"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -0.085556, 51.398333 ]
+			},
+			"properties" : {
+				"Team" : "Crystal Palace ",
+				"FDCOUK" : "Crystal Palace",
+				"City" : "London ",
+				"Stadium" : "Selhurst Park ",
+				"Capacity" : 26309,
+				"Latitude" : 51.398333,
+				"Longitude" : -0.085556,
+				"Country" : "England",
+				"nrOfNations" : 16,
+				"listOfNations" : "Republic of Ireland, Belgium, England, Wales, Senegal, Netherlands, France, Croatia, Germany, Ghana, Poland, Spain, Serbia, DR Congo, Scotland, Ivory Coast",
+				"listOfNationsPlayers" : "Republic of Ireland: 3, Belgium: 1, England: 13, Wales: 1, Senegal: 1, Netherlands: 2, France: 1, Croatia: 1, Germany: 1, Ghana: 2, Poland: 1, Spain: 2, Serbia: 1, DR Congo: 1, Scotland: 1, Ivory Coast: 1"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -1.884722, 52.509167 ]
+			},
+			"properties" : {
+				"Team" : "Aston Villa ",
+				"FDCOUK" : "Aston Villa",
+				"City" : "Birmingham ",
+				"Stadium" : "Villa Park ",
+				"Capacity" : 42785,
+				"Latitude" : 52.509167,
+				"Longitude" : -1.884722,
+				"Country" : "England",
+				"nrOfNations" : 15,
+				"listOfNations" : "DR Congo, Norway, Republic of Ireland, Wales, Belgium, Netherlands, France, Croatia, Brazil, Zimbabwe, Spain, Egypt, Ivory Coast, Scotland, England",
+				"listOfNationsPlayers" : "DR Congo: 1, Norway: 1, Republic of Ireland: 2, Wales: 2, Belgium: 1, Netherlands: 1, France: 1, Croatia: 1, Brazil: 2, Zimbabwe: 1, Spain: 1, Egypt: 2, Ivory Coast: 1, Scotland: 1, England: 15"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -1.621667, 54.975556 ]
+			},
+			"properties" : {
+				"Team" : "Newcastle United ",
+				"FDCOUK" : "Newcastle",
+				"City" : "Newcastle upon Tyne ",
+				"Stadium" : "Sports Direct Arena",
+				"Capacity" : 52409,
+				"Latitude" : 54.975556,
+				"Longitude" : -1.621667,
+				"Country" : "England",
+				"nrOfNations" : 19,
+				"listOfNations" : "Brazil, United States, Korea Republic, Morocco, Republic of Ireland, Scotland, Netherlands, Switzerland, Japan, Senegal, Argentina, England, France, Slovakia, Ghana, Sweden, Spain, Wales, Paraguay",
+				"listOfNationsPlayers" : "Brazil: 1, United States: 1, Korea Republic: 1, Morocco: 1, Republic of Ireland: 2, Scotland: 1, Netherlands: 1, Switzerland: 1, Japan: 1, Senegal: 1, Argentina: 1, England: 12, France: 2, Slovakia: 1, Ghana: 1, Sweden: 1, Spain: 2, Wales: 1, Paraguay: 1"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.130278, 52.590278 ]
+			},
+			"properties" : {
+				"Team" : "Wolverhampton Wanderers ",
+				"FDCOUK" : "Wolves",
+				"City" : "Wolverhampton ",
+				"Stadium" : "Molineux Stadium ",
+				"Capacity" : 27828,
+				"Latitude" : 52.590278,
+				"Longitude" : -2.130278,
+				"Country" : "England",
+				"nrOfNations" : 14,
+				"listOfNations" : "Norway, England, Mexico, Italy, Belgium, Republic of Ireland, France, Morocco, Germany, Brazil, Ghana, Denmark, Spain, Portugal",
+				"listOfNationsPlayers" : "Norway: 1, England: 11, Mexico: 1, Italy: 1, Belgium: 1, Republic of Ireland: 1, France: 1, Morocco: 1, Germany: 1, Brazil: 1, Ghana: 1, Denmark: 1, Spain: 3, Portugal: 8"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -1.391111, 50.905833 ]
+			},
+			"properties" : {
+				"Team" : "Southampton ",
+				"FDCOUK" : "Southampton",
+				"City" : "Southampton ",
+				"Stadium" : "St Mary's Stadium ",
+				"Capacity" : 32689,
+				"Latitude" : 50.905833,
+				"Longitude" : -1.391111,
+				"Country" : "England",
+				"nrOfNations" : 16,
+				"listOfNations" : "Norway, France, Republic of Ireland, Netherlands, Argentina, Morocco, Gabon, Portugal, Austria, Japan, Poland, Denmark, Spain, Mali, Scotland, England",
+				"listOfNationsPlayers" : "Norway: 1, France: 1, Republic of Ireland: 2, Netherlands: 1, Argentina: 1, Morocco: 1, Gabon: 1, Portugal: 1, Austria: 1, Japan: 1, Poland: 1, Denmark: 2, Spain: 1, Mali: 1, Scotland: 1, England: 16"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.308653, 52.622128 ]
+			},
+			"properties" : {
+				"Team" : "Norwich City ",
+				"FDCOUK" : "Norwich",
+				"City" : "Norwich ",
+				"Stadium" : "Carrow Road ",
+				"Capacity" : 27010,
+				"Latitude" : 52.622128000000004,
+				"Longitude" : 1.308653,
+				"Country" : "England",
+				"nrOfNations" : 14,
+				"listOfNations" : "Norway, England, Finland, Republic of Ireland, France, Netherlands, Argentina, Morocco, Switzerland, Northern Ireland, Belgium, Scotland, Bosnia Herzegovina, Germany",
+				"listOfNationsPlayers" : "Norway: 1, England: 9, Finland: 1, Republic of Ireland: 1, France: 1, Netherlands: 1, Argentina: 1, Morocco: 1, Switzerland: 2, Northern Ireland: 2, Belgium: 1, Scotland: 3, Bosnia Herzegovina: 1, Germany: 8"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -1.838333, 50.735278 ]
+			},
+			"properties" : {
+				"Team" : "Bournemouth",
+				"FDCOUK" : "Bournemouth",
+				"City" : "Bournemouth",
+				"Stadium" : "Vitality Stadium",
+				"Capacity" : 10375,
+				"Latitude" : 50.735278,
+				"Longitude" : -1.838333,
+				"Country" : "England",
+				"nrOfNations" : 13,
+				"listOfNations" : "England, Norway, Wales, Netherlands, Republic of Ireland, Nigeria, Poland, Romania, Denmark, Colombia, Spain, Bosnia Herzegovina, Scotland",
+				"listOfNationsPlayers" : "England: 18, Norway: 1, Wales: 3, Netherlands: 2, Republic of Ireland: 1, Nigeria: 1, Poland: 1, Romania: 1, Denmark: 1, Colombia: 1, Spain: 1, Bosnia Herzegovina: 1, Scotland: 1"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -0.083278, 50.861822 ]
+			},
+			"properties" : {
+				"Team" : "Brighton & Hove Albion ",
+				"FDCOUK" : "Brighton",
+				"City" : "Brighton ",
+				"Stadium" : "American Express Community Stadium ",
+				"Capacity" : 22374,
+				"Latitude" : 50.861822,
+				"Longitude" : -0.08327799999999999,
+				"Country" : "England",
+				"nrOfNations" : 18,
+				"listOfNations" : "Italy, Cameroon, England, France, Belgium, Netherlands, Republic of Ireland, Nigeria, Germany, Brazil, Iran, Israel, Denmark, Romania, Colombia, Spain, Mali, Australia",
+				"listOfNationsPlayers" : "Italy: 1, Cameroon: 1, England: 11, France: 1, Belgium: 1, Netherlands: 3, Republic of Ireland: 2, Nigeria: 1, Germany: 1, Brazil: 1, Iran: 1, Israel: 1, Denmark: 1, Romania: 2, Colombia: 1, Spain: 1, Mali: 1, Australia: 2"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -0.401486, 51.649836 ]
+			},
+			"properties" : {
+				"Team" : "Watford ",
+				"FDCOUK" : "Watford",
+				"City" : "Watford ",
+				"Stadium" : "Vicarage Road ",
+				"Capacity" : 23500,
+				"Latitude" : 51.649836,
+				"Longitude" : -0.401486,
+				"Country" : "England",
+				"nrOfNations" : 18,
+				"listOfNations" : "Venezuela, Italy, England, Senegal, Belgium, Netherlands, Argentina, Nigeria, Portugal, Brazil, Jamaica, Austria, Colombia, Spain, Northern Ireland, Greece, Sweden, France",
+				"listOfNationsPlayers" : "Venezuela: 1, Italy: 2, England: 8, Senegal: 1, Belgium: 1, Netherlands: 2, Argentina: 1, Nigeria: 2, Portugal: 1, Brazil: 1, Jamaica: 1, Austria: 2, Colombia: 1, Spain: 2, Northern Ireland: 1, Greece: 1, Sweden: 2, France: 3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 0.039444, 51.531944 ]
+			},
+			"properties" : {
+				"Team" : "West Ham United ",
+				"FDCOUK" : "West Ham",
+				"City" : "London ",
+				"Stadium" : "Boleyn Ground ",
+				"Capacity" : 35303,
+				"Latitude" : 51.531944,
+				"Longitude" : 0.039444,
+				"Country" : "England",
+				"nrOfNations" : 17,
+				"listOfNations" : "Ukraine, DR Congo, England, Mexico, Italy, France, Argentina, Portugal, Paraguay, New Zealand, Poland, Switzerland, Colombia, Spain, Republic of Ireland, Scotland, Brazil",
+				"listOfNationsPlayers" : "Ukraine: 1, DR Congo: 1, England: 12, Mexico: 1, Italy: 1, France: 2, Argentina: 2, Portugal: 3, Paraguay: 1, New Zealand: 1, Poland: 1, Switzerland: 1, Colombia: 1, Spain: 2, Republic of Ireland: 1, Scotland: 1, Brazil: 1"
+			}
+		}
+	]
+}

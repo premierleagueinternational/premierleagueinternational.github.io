@@ -1,0 +1,66 @@
+[
+	{
+		"nationality" : "England",
+		"Team" : "Sheffield United",
+		"LongCentroid" : -1.464854,
+		"LatCentroid" : 52.561928,
+		"PlayersNames" : "Ravel Morrison;Phil Jagielka;Dean Henderson;Jack O'Connell;Billy Sharp;Luke Anthony Freeman;Chris Basham;Ben Osborn;Leon Clarke;George Baldock;Richard Stearman;Jake Wright Sr.;John Lundstram;Simon Moore;Ricky Holmes;Kean Bryan;Ben Heneghan;Keenan Ferguson;Marcus Dewhurst;Jake Young",
+		"PlayersNr" : 20
+	},
+	{
+		"nationality" : "Scotland",
+		"Team" : "Sheffield United",
+		"LongCentroid" : -4.183963,
+		"LatCentroid" : 56.816738,
+		"PlayersNames" : "Oliver McBurnie;John Fleck",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Netherlands",
+		"Team" : "Sheffield United",
+		"LongCentroid" : 5.28144793,
+		"LatCentroid" : 52.1007899,
+		"PlayersNames" : "Michael Verrips",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Wales",
+		"Team" : "Sheffield United",
+		"LongCentroid" : -3.766409,
+		"LatCentroid" : 52.33022,
+		"PlayersNames" : "Kieron Freeman",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Northern Ireland",
+		"Team" : "Sheffield United",
+		"LongCentroid" : -6.693145,
+		"LatCentroid" : 54.607577,
+		"PlayersNames" : "Oliver Norwood",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Bosnia Herzegovina",
+		"Team" : "Sheffield United",
+		"LongCentroid" : 17.76876733,
+		"LatCentroid" : 44.17450125,
+		"PlayersNames" : "Muhamed Bešić",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "France",
+		"Team" : "Sheffield United",
+		"LongCentroid" : -2.76172945,
+		"LatCentroid" : 42.17344011,
+		"PlayersNames" : "Lys Mousset",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Republic of Ireland",
+		"Team" : "Sheffield United",
+		"LongCentroid" : -8.13793569,
+		"LatCentroid" : 53.1754487,
+		"PlayersNames" : "John Egan;Enda Stevens;Callum Robinson;David McGoldrick;Samir  Carruthers;Stephen Mallon",
+		"PlayersNr" : 6
+	}
+]

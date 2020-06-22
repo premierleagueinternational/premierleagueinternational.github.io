@@ -1,0 +1,106 @@
+[
+	{
+		"nationality" : "Scotland",
+		"Team" : "Bournemouth",
+		"LongCentroid" : -4.183963,
+		"LatCentroid" : 56.816738,
+		"PlayersNames" : "Ryan Fraser",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Bosnia Herzegovina",
+		"Team" : "Bournemouth",
+		"LongCentroid" : 17.76876733,
+		"LatCentroid" : 44.17450125,
+		"PlayersNames" : "Asmir Begović",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Spain",
+		"Team" : "Bournemouth",
+		"LongCentroid" : -3.64755047,
+		"LatCentroid" : 40.24448698,
+		"PlayersNames" : "Diego Rico Salguero",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Colombia",
+		"Team" : "Bournemouth",
+		"LongCentroid" : -73.08114582,
+		"LatCentroid" : 3.91383431,
+		"PlayersNames" : "Jefferson Andrés Lerma Solís",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Denmark",
+		"Team" : "Bournemouth",
+		"LongCentroid" : 10.02800992,
+		"LatCentroid" : 55.98125296,
+		"PlayersNames" : "Philip Billing",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Romania",
+		"Team" : "Bournemouth",
+		"LongCentroid" : 24.97293039,
+		"LatCentroid" : 45.85243127,
+		"PlayersNames" : "Mihai Alexandru Dobre",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Poland",
+		"Team" : "Bournemouth",
+		"LongCentroid" : 19.39012835,
+		"LatCentroid" : 52.12759564,
+		"PlayersNames" : "Artur Boruc",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Nigeria",
+		"Team" : "Bournemouth",
+		"LongCentroid" : 8.08943895,
+		"LatCentroid" : 9.59411452,
+		"PlayersNames" : "Nnamdi Ofoborh",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Republic of Ireland",
+		"Team" : "Bournemouth",
+		"LongCentroid" : -8.13793569,
+		"LatCentroid" : 53.1754487,
+		"PlayersNames" : "Mark Travers",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Netherlands",
+		"Team" : "Bournemouth",
+		"LongCentroid" : 5.28144793,
+		"LatCentroid" : 52.1007899,
+		"PlayersNames" : "Nathan Aké;Arnaut Danjuma Groeneveld",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Wales",
+		"Team" : "Bournemouth",
+		"LongCentroid" : -3.766409,
+		"LatCentroid" : 52.33022,
+		"PlayersNames" : "David Brooks;Harry Wilson;Chris Mepham",
+		"PlayersNr" : 3
+	},
+	{
+		"nationality" : "Norway",
+		"Team" : "Bournemouth",
+		"LongCentroid" : 15.34834656,
+		"LatCentroid" : 68.75015572,
+		"PlayersNames" : "Joshua King",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "England",
+		"Team" : "Bournemouth",
+		"LongCentroid" : -1.464854,
+		"LatCentroid" : 52.561928,
+		"PlayersNames" : "Callum Wilson;Steve Cook;Lewis Cook;Adam Smith;Simon Francis;Andrew Surman;Dan Gosling;Junior Stanislas;Jordon  Ibe;Charlie Daniels;Dominic Solanke;Jack Stacey;Lloyd Kelly;Aaron Ramsdale;Jack Simpson;Kyle Taylor;Matt Butcher;Tyler Cordner",
+		"PlayersNr" : 18
+	}
+]

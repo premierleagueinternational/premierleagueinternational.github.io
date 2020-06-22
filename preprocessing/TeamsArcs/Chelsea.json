@@ -1,0 +1,122 @@
+[
+	{
+		"nationality" : "France",
+		"Team" : "Chelsea ",
+		"LongCentroid" : -2.76172945,
+		"LatCentroid" : 42.17344011,
+		"PlayersNames" : "N'Golo Kanté;Olivier Giroud;Tiémoué Bakayoko;Kurt Happy Zouma",
+		"PlayersNr" : 4
+	},
+	{
+		"nationality" : "Scotland",
+		"Team" : "Chelsea ",
+		"LongCentroid" : -4.183963,
+		"LatCentroid" : 56.816738,
+		"PlayersNames" : "Billy Gilmour",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Spain",
+		"Team" : "Chelsea ",
+		"LongCentroid" : -3.64755047,
+		"LatCentroid" : 40.24448698,
+		"PlayersNames" : "Kepa Arrizabalaga;César Azpilicueta Tanco;Pedro Eliezer Rodríguez Ledesma;Marcos Alonso Mendoza",
+		"PlayersNr" : 4
+	},
+	{
+		"nationality" : "Denmark",
+		"Team" : "Chelsea ",
+		"LongCentroid" : 10.02800992,
+		"LatCentroid" : 55.98125296,
+		"PlayersNames" : "Andreas Christensen",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "United States",
+		"Team" : "Chelsea ",
+		"LongCentroid" : -112.4616737,
+		"LatCentroid" : 45.6795472,
+		"PlayersNames" : "Christian Pulisic",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Ghana",
+		"Team" : "Chelsea ",
+		"LongCentroid" : -1.21676566,
+		"LatCentroid" : 7.95345644,
+		"PlayersNames" : "Abdul Rahman Baba",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Brazil",
+		"Team" : "Chelsea ",
+		"LongCentroid" : -53.09783113,
+		"LatCentroid" : -10.78777702,
+		"PlayersNames" : "Willian Borges da Silva;Robert Kenedy Nunes do Nascimento;Gustavo Lucas Domingues Piazon",
+		"PlayersNr" : 3
+	},
+	{
+		"nationality" : "Jamaica",
+		"Team" : "Chelsea ",
+		"LongCentroid" : -77.31482593,
+		"LatCentroid" : 18.15694878,
+		"PlayersNames" : "Michael Hector",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Germany",
+		"Team" : "Chelsea ",
+		"LongCentroid" : 10.38578051,
+		"LatCentroid" : 51.10698181,
+		"PlayersNames" : "Antonio Rüdiger",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Croatia",
+		"Team" : "Chelsea ",
+		"LongCentroid" : 16.40412899,
+		"LatCentroid" : 45.08047631,
+		"PlayersNames" : "Mateo Kovačić",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Argentina",
+		"Team" : "Chelsea ",
+		"LongCentroid" : -65.17980692,
+		"LatCentroid" : -35.3813488,
+		"PlayersNames" : "Wilfredo Daniel Caballero",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Netherlands",
+		"Team" : "Chelsea ",
+		"LongCentroid" : 5.28144793,
+		"LatCentroid" : 52.1007899,
+		"PlayersNames" : "Marco van Ginkel",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Italy",
+		"Team" : "Chelsea ",
+		"LongCentroid" : 12.07001339,
+		"LatCentroid" : 42.79662641,
+		"PlayersNames" : "Luiz Frello Filho Jorge;Davide Zappacosta;Emerson Palmieri dos Santos",
+		"PlayersNr" : 3
+	},
+	{
+		"nationality" : "Belgium",
+		"Team" : "Chelsea ",
+		"LongCentroid" : 4.64065114,
+		"LatCentroid" : 50.63981576,
+		"PlayersNames" : "Michy Batshuayi Tunga",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "England",
+		"Team" : "Chelsea ",
+		"LongCentroid" : -1.464854,
+		"LatCentroid" : 52.561928,
+		"PlayersNames" : "Ruben Loftus-Cheek;Ross Barkley;Tammy Abraham;Mason Mount;Callum Hudson-Odoi;Reece James;Fikayo Tomori;Jamal Blackman;Jamie Cumming",
+		"PlayersNr" : 9
+	}
+]

@@ -1,0 +1,154 @@
+[
+	{
+		"nationality" : "Paraguay",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -58.40013703,
+		"LatCentroid" : -23.22823913,
+		"PlayersNames" : "Miguel Almirón",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Wales",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -3.766409,
+		"LatCentroid" : 52.33022,
+		"PlayersNames" : "Paul Dummett",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Spain",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -3.64755047,
+		"LatCentroid" : 40.24448698,
+		"PlayersNames" : "Javier Manquillo Gaitán;Víctor Fernández Satué",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Sweden",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : 16.74558049,
+		"LatCentroid" : 62.77966519,
+		"PlayersNames" : "Emil Krafth",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Ghana",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -1.21676566,
+		"LatCentroid" : 7.95345644,
+		"PlayersNames" : "Christian Atsu",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Slovakia",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : 19.47905218,
+		"LatCentroid" : 48.70547528,
+		"PlayersNames" : "Martin Dúbravka",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "France",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -2.76172945,
+		"LatCentroid" : 42.17344011,
+		"PlayersNames" : "Allan Saint-Maximin;Florian Lejeune",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "England",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -1.464854,
+		"LatCentroid" : 52.561928,
+		"PlayersNames" : "Jamaal Lascelles;Jonjo Shelvey;Isaac Hayden;Dwight Gayle;Andy Carroll;Karl Darlow;Sean Longstaff;Jack Colback;Rolando Aarons;Matthew Longstaff;Jamie Sterry;Owen Bailey",
+		"PlayersNr" : 12
+	},
+	{
+		"nationality" : "Argentina",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -65.17980692,
+		"LatCentroid" : -35.3813488,
+		"PlayersNames" : "Federico Fernández",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Senegal",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -14.4734924,
+		"LatCentroid" : 14.36624173,
+		"PlayersNames" : "Henri Saivet",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Japan",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : 138.03089558,
+		"LatCentroid" : 37.59230135,
+		"PlayersNames" : "武藤 嘉紀",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Switzerland",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : 8.20867471,
+		"LatCentroid" : 46.79785878,
+		"PlayersNames" : "Fabian Schär",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Netherlands",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : 5.28144793,
+		"LatCentroid" : 52.1007899,
+		"PlayersNames" : "Jetro Willems",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Scotland",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -4.183963,
+		"LatCentroid" : 56.816738,
+		"PlayersNames" : "Matt Ritchie",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Republic of Ireland",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -8.13793569,
+		"LatCentroid" : 53.1754487,
+		"PlayersNames" : "Ciaran Clark;Rob Elliot",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Morocco",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -8.45615795,
+		"LatCentroid" : 29.83762955,
+		"PlayersNames" : "Achraf Lazaar",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Korea Republic",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : 127.83916086,
+		"LatCentroid" : 36.38523983,
+		"PlayersNames" : "기성용 寄诚庸",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "United States",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -112.4616737,
+		"LatCentroid" : 45.6795472,
+		"PlayersNames" : "DeAndre Yedlin",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Brazil",
+		"Team" : "Newcastle United ",
+		"LongCentroid" : -53.09783113,
+		"LatCentroid" : -10.78777702,
+		"PlayersNames" : "Joelinton Apolinário de Lira",
+		"PlayersNr" : 1
+	}
+]

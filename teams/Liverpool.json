@@ -1,0 +1,122 @@
+[
+	{
+		"nationality" : "Netherlands",
+		"Team" : "Liverpool ",
+		"LongCentroid" : 5.28144793,
+		"LatCentroid" : 52.1007899,
+		"PlayersNames" : "Virgil van Dijk;Georginio Wijnaldum;Sepp van den Berg;Ki-Jana Hoever",
+		"PlayersNr" : 4
+	},
+	{
+		"nationality" : "Scotland",
+		"Team" : "Liverpool ",
+		"LongCentroid" : -4.183963,
+		"LatCentroid" : 56.816738,
+		"PlayersNames" : "Andrew Robertson",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Algeria",
+		"Team" : "Liverpool ",
+		"LongCentroid" : 2.61732301,
+		"LatCentroid" : 28.15893849,
+		"PlayersNames" : "Yasser Larouci",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Egypt",
+		"Team" : "Liverpool ",
+		"LongCentroid" : 29.86190099,
+		"LatCentroid" : 26.49593311,
+		"PlayersNames" : "Mohamed  Salah Ghaly",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Spain",
+		"Team" : "Liverpool ",
+		"LongCentroid" : -3.64755047,
+		"LatCentroid" : 40.24448698,
+		"PlayersNames" : "Adrián San Miguel del Castillo;Pedro Chirivella Burgos",
+		"PlayersNr" : 2
+	},
+	{
+		"nationality" : "Guinea",
+		"Team" : "Liverpool ",
+		"LongCentroid" : -10.94066612,
+		"LatCentroid" : 10.43621593,
+		"PlayersNames" : "Naby Keïta",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Switzerland",
+		"Team" : "Liverpool ",
+		"LongCentroid" : 8.20867471,
+		"LatCentroid" : 46.79785878,
+		"PlayersNames" : "Xherdan Shaqiri",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Brazil",
+		"Team" : "Liverpool ",
+		"LongCentroid" : -53.09783113,
+		"LatCentroid" : -10.78777702,
+		"PlayersNames" : "Alisson Ramses Becker;Roberto Firmino Barbosa de Oliveira;Fábio Henrique Tavares",
+		"PlayersNr" : 3
+	},
+	{
+		"nationality" : "Germany",
+		"Team" : "Liverpool ",
+		"LongCentroid" : 10.38578051,
+		"LatCentroid" : 51.10698181,
+		"PlayersNames" : "Paul Glatzel",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Croatia",
+		"Team" : "Liverpool ",
+		"LongCentroid" : 16.40412899,
+		"LatCentroid" : 45.08047631,
+		"PlayersNames" : "Dejan Lovren",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Cameroon",
+		"Team" : "Liverpool ",
+		"LongCentroid" : 12.73964156,
+		"LatCentroid" : 5.69109849,
+		"PlayersNames" : "Joël Andre Job Matip",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Republic of Ireland",
+		"Team" : "Liverpool ",
+		"LongCentroid" : -8.13793569,
+		"LatCentroid" : 53.1754487,
+		"PlayersNames" : "Caoimhin Kelleher",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Senegal",
+		"Team" : "Liverpool ",
+		"LongCentroid" : -14.4734924,
+		"LatCentroid" : 14.36624173,
+		"PlayersNames" : "Sadio Mané",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "Belgium",
+		"Team" : "Liverpool ",
+		"LongCentroid" : 4.64065114,
+		"LatCentroid" : 50.63981576,
+		"PlayersNames" : "Divock Origi",
+		"PlayersNr" : 1
+	},
+	{
+		"nationality" : "England",
+		"Team" : "Liverpool ",
+		"LongCentroid" : -1.464854,
+		"LatCentroid" : 52.561928,
+		"PlayersNames" : "Trent Alexander-Arnold;Jordan Brian Henderson;James Philip Milner;Joe Gomez;Alex Oxlade-Chamberlain;Adam David Lallana;Nathaniel Edwin Clyne;Ryan Kent;Herbie Kane;Andrew Lonergan;Rhian Brewster;Curtis Jones;Adam Lewis",
+		"PlayersNr" : 13
+	}
+]
