@@ -108,13 +108,13 @@ function onoffAllClubs(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -443,13 +443,13 @@ function onoffAllClubs(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -787,13 +787,13 @@ function onoffBournemouth(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -830,13 +830,13 @@ function onoffBournemouth(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -903,13 +903,13 @@ function onoffAstonVilla(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -946,13 +946,13 @@ function onoffAstonVilla(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1021,13 +1021,13 @@ function onoffArsenal(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1064,13 +1064,13 @@ function onoffArsenal(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1136,13 +1136,13 @@ function onoffBrighton(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1179,13 +1179,13 @@ function onoffBrighton(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1250,13 +1250,13 @@ function onoffBurnley(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1293,13 +1293,13 @@ function onoffBurnley(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1366,13 +1366,13 @@ function onoffChelsea(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1409,13 +1409,13 @@ function onoffChelsea(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1484,13 +1484,13 @@ function onoffCrystalPalace(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1527,13 +1527,13 @@ function onoffCrystalPalace(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1600,13 +1600,13 @@ function onoffEverton(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1643,13 +1643,13 @@ function onoffEverton(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1715,13 +1715,13 @@ function onoffLeicester(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1758,13 +1758,13 @@ function onoffLeicester(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1831,13 +1831,13 @@ function onoffLiverpool(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1874,13 +1874,13 @@ function onoffLiverpool(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1948,13 +1948,13 @@ function onoffManCity(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -1991,13 +1991,13 @@ function onoffManCity(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2065,13 +2065,13 @@ function onoffManUnited(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2108,13 +2108,13 @@ function onoffManUnited(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2182,13 +2182,13 @@ function onoffNewcastle(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2225,13 +2225,13 @@ function onoffNewcastle(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2298,13 +2298,13 @@ function onoffNorwich(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2341,13 +2341,13 @@ function onoffNorwich(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2414,13 +2414,13 @@ function onoffSheffieldUtd(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2457,13 +2457,13 @@ function onoffSheffieldUtd(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2530,13 +2530,13 @@ function onoffSouthampton(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2573,13 +2573,13 @@ function onoffSouthampton(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2648,13 +2648,13 @@ function onoffTottenham(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2691,13 +2691,13 @@ function onoffTottenham(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2765,13 +2765,13 @@ function onoffWatford(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2808,13 +2808,13 @@ function onoffWatford(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2882,13 +2882,13 @@ function onoffWestHam(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -2925,13 +2925,13 @@ function onoffWestHam(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -3000,13 +3000,13 @@ function onoffWolverhampton(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -3043,13 +3043,13 @@ function onoffWolverhampton(){
         //pointRadiusMinPixels: 2,
         //pointRadiusScale: 2000,
         getRadius: d => scalePoints(d.properties.nrOfNations),
-        getFillColor: [200, 0, 180, 180],
+        getFillColor: [241, 191, 0, 180],
         // Interactive props
         pickable: true,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
-          info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+          info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
       //LAYERs #2 -- clubs players and their home locations
@@ -3352,6 +3352,7 @@ function getTooltip({object}) {
   }
 //add more to popups
 
+
  /*
  **********Map init**********
  */
@@ -3388,14 +3389,13 @@ const layers = [
     //pointRadiusMinPixels: 2,
     //pointRadiusScale: 2000,
     getRadius: d => scalePoints(d.properties.nrOfNations),
-    getFillColor: [200, 0, 180, 180],
+    getFillColor: [241, 191, 0, 180],
     // Interactive props
     pickable: true,
     autoHighlight: true,
-    onHover: info => getTooltip(info.object),
     onClick: info =>
       // eslint-disable-next-line
-      info.object && alert(`${info.object.properties.Team} (${info.object.properties.abbrev})`) //here get position of the stadium and pass it to ArcLayer as getSourcePosition
+      info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
       
   }),
 //LAYERs #2 -- clubs players and their home locations

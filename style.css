@@ -7,6 +7,7 @@ body {
     height: 100vh;
 }
 
+
 .deck-tooltip {
 font-family: Helvetica, Arial, sans-serif;
 font-weight: bold;
@@ -27,7 +28,7 @@ cursor: pointer;
 
 .allButton {
   position: absolute;
-  bottom: 220px;
+  bottom: 40px;
   left: 50px;
   z-index: 1001;
   background-color:rgb(255, 253, 253);
@@ -504,7 +505,7 @@ cursor: pointer;
 
 #control {
     width: 300px;
-    height: 20%;
+    height: 70%;
     position: absolute;
     top: 50;
     left: 50;
@@ -546,7 +547,7 @@ cursor: pointer;
     color:  rgb(52, 16, 73);
     text-align: center;
     top: 150;
-    left: 50;
+    left: 0;
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 14px;
@@ -554,31 +555,28 @@ cursor: pointer;
     font-family: sans-serif;
   }
 
+  .text2{
+    display: inline-block;
+    color:  rgb(52, 16, 73);
+    text-align: center;
+    top: 250;
+    left: 50;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    position: absolute;
+    font-family: sans-serif;
+  }
 
- /* Legend colour ramp */
-
- #legend {
-  position: absolute;
-  top: 330px;
-  left: 90px;
-  z-index: 1001;
-  background-image: linear-gradient(to right, rgb(21, 74, 234) ,rgb(43, 131, 186), rgb(171, 221, 164), rgb(255, 255, 191), rgb(253, 174, 97), rgb(215, 25, 28));
-  /* display: none; */
-  width: 230px;
-  height: 50px;
-  border-radius: 6px;
-}
-
-.legend-text{
-  display: inline-block;
-  color:  rgb(52, 16, 73);
-  text-align: center;
-  top: 60px;
-  left: 10px;
-  font-weight: bold;
-  font-style: italic;
-  letter-spacing: 1px;
-  font-size: 14px;
-  position: absolute;
-  font-family: sans-serif;
-}
+  .text3{
+    display: inline-block;
+    color:  rgb(52, 16, 73);
+    text-align: left;
+    bottom: 5;
+    left: 5;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    position: absolute;
+    font-family: sans-serif;
+  }
