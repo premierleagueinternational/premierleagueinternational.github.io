@@ -1,110 +1,105 @@
-2020-06-22 20:19:26|   0.2|  0.2|INFORM|FME 2020.0.1.0 (20200407 - Build 20218 - WIN64)
-2020-06-22 20:19:26|   0.2|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
-2020-06-22 20:19:26|   0.2|  0.0|INFORM|FME Desktop Oracle Edition (floating)
-2020-06-22 20:19:26|   0.2|  0.0|INFORM|Temporary License: 71 days left.
-2020-06-22 20:19:26|   0.2|  0.0|INFORM|Machine host name is: DESKTOP-0N5KA21
-2020-06-22 20:19:26|   0.2|  0.0|INFORM|START - ProcessID: 48936, peak process memory usage: 36964 kB, current process memory usage: 36964 kB
-2020-06-22 20:19:26|   0.2|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/sem4/footbaal/InternationalTeam/preprocessing\wb-xlate-1592849962134_28784' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{b387e86c-7240-4091-9f7d-47b53a0bf887}' `LOG_TIMINGS' `Yes'
-2020-06-22 20:19:26|   0.2|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\SAVe\AppData\Roaming\Safe Software\FME\'
-2020-06-22 20:19:27|   0.6|  0.4|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\SAVe\Documents\FME\Formats
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Shared folders for transformers are : C:\Users\SAVe\AppData\Roaming\Safe Software\FME\Packages\20218-win64\transformers;C:\Program Files\FME\transformers;C:\Users\SAVe\AppData\Roaming\Safe Software\FME\FME Store\Transformers
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\SAVe\Documents\FME\CoordinateSystems
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\SAVe\Documents\FME\CoordinateSystemExceptions
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\SAVe\Documents\FME\CoordinateSystemGridOverrides
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\SAVe\Documents\FME\CsmapTransformationExceptions
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\SAVe\Documents\FME\TransformerCategories
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: Current working folder is `C:\sem4\footbaal\InternationalTeam\preprocessing'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\SAVe\AppData\Local\Temp', set from environment variable `TEMP'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\sem4\footbaal\InternationalTeam\preprocessing/'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'arcLayerCreation.fmw'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2020.0.1.0'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|System Status: 130.67 GB of disk space available in the FME temporary folder (C:\Users\SAVe\AppData\Local\Temp)
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|System Status: 15.72 GB of physical memory available
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|System Status: 62.87 GB of virtual memory available
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 18362)
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Platform: WIN64
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Locale: en_GB
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|System Encoding: windows-1252
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.15 GB
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.37 GB
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Creating writer for format: 
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Creating reader for format: 
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20200115)
-2020-06-22 20:19:27|   0.6|  0.0|INFORM|Emptying factory pipeline
-2020-06-22 20:19:27|   0.6|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
-2020-06-22 20:19:27|   0.6|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-06-22 20:19:27|   0.6|  0.0|STATS |CSV_CSV2_2 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-06-22 20:19:27|   0.6|  0.0|STATS |CSV_CSV2_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-06-22 20:19:27|   0.6|  0.0|STATS |TeamLocations_GEOJSON_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-06-22 20:19:27|   0.6|  0.0|STATS |TeamLocations_GEOJSON_2 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-06-22 20:19:27|   0.6|  0.0|STATS |Restoring 20 feature(s) from FME feature store file `C:\Users\SAVe\AppData\Local\Temp\wb-cache-arcLayerCreation-PnoIgX\Main_FeatureMerger_3 -1 301 fo 0 MERGED  0  78a4f328c685fd7fac8824eb2188fe11c4a3fe82.ffs'
-2020-06-22 20:19:27|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\SAVe\AppData\Local\Temp\wb-cache-arcLayerCreation-PnoIgX\Main_AttributeRemover_6 -1 304 fo 0 OUTPUT  0  8d4701fd7607e2ff60fca852bd3b83f07f2ddd1e.ffsupdating'
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|FeatureMerger_3_MERGED_-1_305_Player (RecorderFactory): Played back 20 feature(s) from file `C:\Users\SAVe\AppData\Local\Temp\wb-cache-arcLayerCreation-PnoIgX\Main_FeatureMerger_3 -1 301 fo 0 MERGED  0  78a4f328c685fd7fac8824eb2188fe11c4a3fe82.ffs'
-2020-06-22 20:19:27|   0.7|  0.0|STATS |AttributeRemover_6 (TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
-2020-06-22 20:19:27|   0.7|  0.0|STATS |Stored 20 feature(s) to FME feature store file `C:\Users\SAVe\AppData\Local\Temp\wb-cache-arcLayerCreation-PnoIgX\Main_AttributeRemover_6 -1 304 fo 0 OUTPUT  0  8d4701fd7607e2ff60fca852bd3b83f07f2ddd1e.ffsupdating'
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|Saving spatial index into file 'C:\Users\SAVe\AppData\Local\Temp\wb-cache-arcLayerCreation-PnoIgX\Main_AttributeRemover_6 -1 304 fo 0 OUTPUT  0  8d4701fd7607e2ff60fca852bd3b83f07f2ddd1e.fsi'
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\SAVe\AppData\Local\Temp\wb-cache-arcLayerCreation-PnoIgX\Main_AttributeRemover_6 -1 304 fo 0 OUTPUT  0  8d4701fd7607e2ff60fca852bd3b83f07f2ddd1e.fsi'
-2020-06-22 20:19:27|   0.7|  0.0|STATS |AttributeRemover_6_OUTPUT Feature Counter -1 308 (TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
-2020-06-22 20:19:27|   0.7|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 20 input feature(s), wrote 20 output feature(s): 0 matched merge filters, 20 were routed to output, 0 could not be routed.
-2020-06-22 20:19:27|   0.7|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|MULTI_WRITER: multi_writer_id `20': Started outputting features
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|Creating writer for format: GeoJSON (Geographic JavaScript Object Notation)
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `GEOJSON'
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|Loaded module 'GEOJSON' from file 'C:\Program Files\FME\plugins/JSON.dll'
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20200115)
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20200115)
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|Writer `GEOJSON_3' of type `GEOJSON' using group definition keyword `GEOJSON_3_DEF'
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20200115)
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|GeoJSON Writer: All features not in WGS84 will be reprojected to WGS84
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|Opening the GEOJSON writer with destination dataset 'C:\sem4\footbaal\InternationalTeam\preprocessing\Clubs.json'
-2020-06-22 20:19:27|   0.7|  0.0|INFORM|FME Configuration: Destination coordinate system set to input coordinate system `LL84'
-2020-06-22 20:19:27|   0.8|  0.2|INFORM|FME Configuration: Using FME Reprojection Engine
-2020-06-22 20:19:27|   0.9|  0.0|INFORM|Closing the GEOJSON writer
-2020-06-22 20:19:27|   0.9|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-06-22 20:19:27|   0.9|  0.0|INFORM|Feature output statistics for `GEOJSON' writer using keyword `GEOJSON_3':
-2020-06-22 20:19:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-06-22 20:19:27|   0.9|  0.0|STATS |                               Features Written
-2020-06-22 20:19:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-06-22 20:19:27|   0.9|  0.0|STATS |NewFeatureType                                                              20
-2020-06-22 20:19:27|   0.9|  0.0|STATS |==============================================================================
-2020-06-22 20:19:27|   0.9|  0.0|STATS |Total Features Written                                                      20
-2020-06-22 20:19:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-06-22 20:19:27|   0.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `20': done writing 20 feature(s) 
-2020-06-22 20:19:27|   0.9|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2020-06-22 20:19:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-06-22 20:19:27|   0.9|  0.0|STATS |                            Features Read Summary
-2020-06-22 20:19:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-06-22 20:19:27|   0.9|  0.0|STATS |==============================================================================
-2020-06-22 20:19:27|   0.9|  0.0|STATS |Total Features Read                                                          0
-2020-06-22 20:19:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-06-22 20:19:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-06-22 20:19:27|   0.9|  0.0|STATS |                           Features Written Summary
-2020-06-22 20:19:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-06-22 20:19:27|   0.9|  0.0|STATS |NewFeatureType                                                              20
-2020-06-22 20:19:27|   0.9|  0.0|STATS |==============================================================================
-2020-06-22 20:19:27|   0.9|  0.0|STATS |Total Features Written                                                      20
-2020-06-22 20:19:27|   0.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-06-22 20:19:27|   0.9|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2020-06-22 20:19:27|   0.9|  0.0|WARN  |-~                                                                             ~-
-2020-06-22 20:19:27|   0.9|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
-2020-06-22 20:19:27|   0.9|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
-2020-06-22 20:19:27|   0.9|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
-2020-06-22 20:19:27|   0.9|  0.0|WARN  |-~                                                                             ~-
-2020-06-22 20:19:27|   0.9|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2020-06-22 20:19:27|   0.9|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (20 feature(s) output)
-2020-06-22 20:19:27|   0.9|  0.0|INFORM|FME Session Duration: 0.9 seconds. (CPU: 0.2s user, 0.1s system)
-2020-06-22 20:19:27|   0.9|  0.0|INFORM|END - ProcessID: 48936, peak process memory usage: 84324 kB, current process memory usage: 84324 kB
+2020-07-06 17:26:13|   0.2|  0.2|INFORM|FME 2020.0.1.0 (20200407 - Build 20218 - WIN64)
+2020-07-06 17:26:13|   0.2|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2020-07-06 17:26:13|   0.2|  0.0|INFORM|FME Desktop Oracle Edition (floating)
+2020-07-06 17:26:13|   0.2|  0.0|INFORM|Temporary License: 57 days left.
+2020-07-06 17:26:13|   0.2|  0.0|INFORM|Machine host name is: DESKTOP-0N5KA21
+2020-07-06 17:26:13|   0.2|  0.0|INFORM|START - ProcessID: 50148, peak process memory usage: 36860 kB, current process memory usage: 36860 kB
+2020-07-06 17:26:13|   0.2|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/sem4/footbaal/InternationalTeam/preprocessing\wb-xlate-1594049169336_16252' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{c8041e5d-cde3-47ac-87f3-5bbd47d157ef}' `LOG_TIMINGS' `Yes'
+2020-07-06 17:26:13|   0.2|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\SAVe\AppData\Roaming\Safe Software\FME\'
+2020-07-06 17:26:14|   0.6|  0.4|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\SAVe\Documents\FME\Formats
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Shared folders for transformers are : C:\Users\SAVe\AppData\Roaming\Safe Software\FME\Packages\20218-win64\transformers;C:\Program Files\FME\transformers;C:\Users\SAVe\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\SAVe\Documents\FME\CoordinateSystems
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\SAVe\Documents\FME\CoordinateSystemExceptions
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\SAVe\Documents\FME\CoordinateSystemGridOverrides
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\SAVe\Documents\FME\CsmapTransformationExceptions
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\SAVe\Documents\FME\TransformerCategories
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: Current working folder is `C:\sem4\footbaal\InternationalTeam\preprocessing'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\SAVe\AppData\Local\Temp', set from environment variable `TEMP'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\sem4\footbaal\InternationalTeam\preprocessing/'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'arcLayerCreation.fmw'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2020.0.1.0'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|System Status: 133.84 GB of disk space available in the FME temporary folder (C:\Users\SAVe\AppData\Local\Temp)
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|System Status: 15.72 GB of physical memory available
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|System Status: 62.87 GB of virtual memory available
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 18362)
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Platform: WIN64
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Locale: en_GB
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|System Encoding: windows-1252
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.15 GB
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.37 GB
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Creating writer for format: 
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Creating reader for format: 
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20200115)
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Emptying factory pipeline
+2020-07-06 17:26:14|   0.6|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2020-07-06 17:26:14|   0.6|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-07-06 17:26:14|   0.6|  0.0|STATS |CSV_CSV2_3 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-07-06 17:26:14|   0.6|  0.0|STATS |CSV_CSV2_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-07-06 17:26:14|   0.6|  0.0|STATS |TeamLocations_GEOJSON_2 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-07-06 17:26:14|   0.6|  0.0|STATS |TeamLocations_GEOJSON_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-07-06 17:26:14|   0.6|  0.0|STATS |CSV_CSV2_2 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-07-06 17:26:14|   0.6|  0.0|STATS |Restoring 62 feature(s) from FME feature store file `C:\Users\SAVe\AppData\Local\Temp\wb-cache-arcLayerCreation-DSdCAT\Main_VertexCreator_2 -1 327 fo 0 OUTPUT  0  a92a8b331a6b588b2ca8ff48ac2720a4dc8780e2.ffs'
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|VertexCreator_2_OUTPUT_-1_330_Player (RecorderFactory): Played back 62 feature(s) from file `C:\Users\SAVe\AppData\Local\Temp\wb-cache-arcLayerCreation-DSdCAT\Main_VertexCreator_2 -1 327 fo 0 OUTPUT  0  a92a8b331a6b588b2ca8ff48ac2720a4dc8780e2.ffs'
+2020-07-06 17:26:14|   0.6|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 62 input feature(s), wrote 62 output feature(s): 0 matched merge filters, 62 were routed to output, 0 could not be routed.
+2020-07-06 17:26:14|   0.6|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|MULTI_WRITER: multi_writer_id `21': Started outputting features
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Creating writer for format: GeoJSON (Geographic JavaScript Object Notation)
+2020-07-06 17:26:14|   0.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `GEOJSON'
+2020-07-06 17:26:14|   0.7|  0.0|INFORM|Loaded module 'GEOJSON' from file 'C:\Program Files\FME\plugins/JSON.dll'
+2020-07-06 17:26:14|   0.7|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20200115)
+2020-07-06 17:26:14|   0.7|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-07-06 17:26:14|   0.7|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20200115)
+2020-07-06 17:26:14|   0.7|  0.0|INFORM|Writer `GEOJSON_4' of type `GEOJSON' using group definition keyword `GEOJSON_4_DEF'
+2020-07-06 17:26:14|   0.7|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20200115)
+2020-07-06 17:26:14|   0.7|  0.0|INFORM|GeoJSON Writer: All features not in WGS84 will be reprojected to WGS84
+2020-07-06 17:26:14|   0.7|  0.0|INFORM|Opening the GEOJSON writer with destination dataset 'C:\sem4\footbaal\InternationalTeam\preprocessing\Countries.json'
+2020-07-06 17:26:14|   0.7|  0.0|INFORM|FME Configuration: Destination coordinate system set to input coordinate system `LL84'
+2020-07-06 17:26:14|   0.8|  0.2|INFORM|FME Configuration: Using FME Reprojection Engine
+2020-07-06 17:26:14|   0.8|  0.0|INFORM|Closing the GEOJSON writer
+2020-07-06 17:26:14|   0.8|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-07-06 17:26:14|   0.8|  0.0|INFORM|Feature output statistics for `GEOJSON' writer using keyword `GEOJSON_4':
+2020-07-06 17:26:14|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-07-06 17:26:14|   0.8|  0.0|STATS |                               Features Written
+2020-07-06 17:26:14|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-07-06 17:26:14|   0.8|  0.0|STATS |Countries                                                                   62
+2020-07-06 17:26:14|   0.8|  0.0|STATS |==============================================================================
+2020-07-06 17:26:14|   0.8|  0.0|STATS |Total Features Written                                                      62
+2020-07-06 17:26:14|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-07-06 17:26:14|   0.8|  0.0|INFORM|MULTI_WRITER: multi_writer_id `21': done writing 62 feature(s) 
+2020-07-06 17:26:14|   0.8|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020-07-06 17:26:14|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-07-06 17:26:14|   0.8|  0.0|STATS |                            Features Read Summary
+2020-07-06 17:26:14|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-07-06 17:26:14|   0.8|  0.0|STATS |==============================================================================
+2020-07-06 17:26:14|   0.8|  0.0|STATS |Total Features Read                                                          0
+2020-07-06 17:26:14|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-07-06 17:26:14|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-07-06 17:26:14|   0.8|  0.0|STATS |                           Features Written Summary
+2020-07-06 17:26:14|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-07-06 17:26:14|   0.8|  0.0|STATS |Countries                                                                   62
+2020-07-06 17:26:14|   0.8|  0.0|STATS |==============================================================================
+2020-07-06 17:26:14|   0.8|  0.0|STATS |Total Features Written                                                      62
+2020-07-06 17:26:14|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-07-06 17:26:14|   0.8|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2020-07-06 17:26:14|   0.8|  0.0|WARN  |-~                                                                             ~-
+2020-07-06 17:26:14|   0.8|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2020-07-06 17:26:14|   0.8|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2020-07-06 17:26:14|   0.8|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2020-07-06 17:26:14|   0.8|  0.0|WARN  |-~                                                                             ~-
+2020-07-06 17:26:14|   0.8|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2020-07-06 17:26:14|   0.8|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (62 feature(s) output)
+2020-07-06 17:26:14|   0.8|  0.0|INFORM|FME Session Duration: 0.8 seconds. (CPU: 0.2s user, 0.1s system)
+2020-07-06 17:26:14|   0.8|  0.0|INFORM|END - ProcessID: 50148, peak process memory usage: 84004 kB, current process memory usage: 84004 kB

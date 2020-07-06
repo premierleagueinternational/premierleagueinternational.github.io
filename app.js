@@ -1,24 +1,15 @@
- //to do:
- /*
- 
- -> only one layer visible per click
- -> change colours of country flags only when single arc is selected...
- -> for initial state make them according to main club colour
- -> try with opacity differently, make it as focus/active
 
- */
-
- 
  /*
  **********Some basics**********
  */
-const AIR_PORTS =
-  'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_airports.geojson';
 
 // PL stadiums 2019/20
 const plStadiums = './Clubs.json';
 
-//TeamsStats
+//CountriesStats
+const countries = './Countries.json';
+
+//TeamSquads
 const Arsenal = './teams/Arsenal.json';
 const AstonVilla = './teams/AstonVilla.json';
 const Bournemouth = './teams/Bournemouth.json';
@@ -110,14 +101,33 @@ function onoffAllClubs(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
-        autoHighlight: true,
+        pickable: false,
+        autoHighlight: false,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       
   new deck.ArcLayer({
     id: 'bournemouth',
@@ -125,6 +135,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locBournemouth,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -134,11 +145,12 @@ function onoffAllClubs(){
     info.object && alert(`${info.object.nationality} (${info.object.PlayersNames})`)
   }),
   new deck.ArcLayer({
-    id: 'arsenal',
+    id: 'Arsenal',
     data: Arsenal,
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locArsenal,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -153,6 +165,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locAstonVilla,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -167,6 +180,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locBrighton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -181,6 +195,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locBurnley,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -195,6 +210,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locChelsea,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -209,6 +225,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locCrystalPalace,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -223,6 +240,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locEverton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -237,6 +255,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locLeicesterCity,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -251,6 +270,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locLiverpool,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -265,6 +285,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locManchesterCity,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -279,6 +300,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locManchesterUnited,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -293,6 +315,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locNewcastleUnited,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -307,6 +330,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locNorwichCity,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -321,6 +345,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locSheffieldUnited,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -335,6 +360,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locSouthampton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -349,6 +375,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locTottenham,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -363,6 +390,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locWatford,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -377,6 +405,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locWestHam,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -391,6 +420,7 @@ function onoffAllClubs(){
     visible: true,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locWolverhampton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -445,14 +475,33 @@ function onoffAllClubs(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'bournemouth',
@@ -460,6 +509,7 @@ function onoffAllClubs(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locBournemouth,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -470,11 +520,12 @@ function onoffAllClubs(){
       }),
           
   new deck.ArcLayer({
-    id: 'arsenal',
+    id: 'Arsenal',
     data: Arsenal,
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locArsenal,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -489,6 +540,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locAstonVilla,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -503,6 +555,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locBrighton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -517,6 +570,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locBurnley,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -531,6 +585,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locChelsea,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -545,6 +600,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locCrystalPalace,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -559,6 +615,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locEverton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -573,6 +630,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locLeicesterCity,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -587,6 +645,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locLiverpool,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -601,6 +660,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locManchesterCity,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -615,6 +675,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locManchesterUnited,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -629,6 +690,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locNewcastleUnited,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -643,6 +705,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locNorwichCity,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -657,6 +720,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locSheffieldUnited,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -671,6 +735,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locSouthampton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -685,6 +750,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locTottenham,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -699,6 +765,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locWatford,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -713,6 +780,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locWestHam,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -727,6 +795,7 @@ function onoffAllClubs(){
     visible: false,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locWolverhampton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -789,20 +858,40 @@ function onoffBournemouth(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'bournemouth',
         data: Bournemouth,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locBournemouth,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -832,14 +921,33 @@ function onoffBournemouth(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'bournemouth',
@@ -847,6 +955,7 @@ function onoffBournemouth(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locBournemouth,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -905,20 +1014,40 @@ function onoffAstonVilla(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'AstonVilla',
         data: AstonVilla,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locAstonVilla,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -948,14 +1077,33 @@ function onoffAstonVilla(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'AstonVilla',
@@ -963,6 +1111,7 @@ function onoffAstonVilla(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locAstonVilla,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1023,20 +1172,40 @@ function onoffArsenal(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Arsenal',
         data: Arsenal,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locArsenal,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1066,14 +1235,33 @@ function onoffArsenal(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Arsenal',
@@ -1081,6 +1269,7 @@ function onoffArsenal(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locArsenal,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1138,20 +1327,40 @@ function onoffBrighton(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Brighton',
         data: Brighton,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locBrighton,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1181,14 +1390,33 @@ function onoffBrighton(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Brighton',
@@ -1196,6 +1424,7 @@ function onoffBrighton(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locBrighton,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1252,20 +1481,40 @@ function onoffBurnley(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Burnley',
         data: Burnley,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locBurnley,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1295,14 +1544,33 @@ function onoffBurnley(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Burnley',
@@ -1310,6 +1578,7 @@ function onoffBurnley(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locBurnley,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1368,20 +1637,40 @@ function onoffChelsea(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Chelsea',
         data: Chelsea,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locChelsea,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1411,14 +1700,33 @@ function onoffChelsea(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Chelsea',
@@ -1426,6 +1734,7 @@ function onoffChelsea(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locChelsea,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1486,20 +1795,40 @@ function onoffCrystalPalace(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'CrystalPalace',
         data: CrystalPalace,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locCrystalPalace,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1529,14 +1858,33 @@ function onoffCrystalPalace(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'CrystalPalace',
@@ -1544,6 +1892,7 @@ function onoffCrystalPalace(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locCrystalPalace,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1602,20 +1951,40 @@ function onoffEverton(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Everton',
         data: Everton,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locEverton,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1645,14 +2014,33 @@ function onoffEverton(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Everton',
@@ -1660,6 +2048,7 @@ function onoffEverton(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locEverton,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1717,20 +2106,40 @@ function onoffLeicester(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Leicester',
         data: Leicester,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locLeicesterCity,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1760,14 +2169,33 @@ function onoffLeicester(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Leicester',
@@ -1775,6 +2203,7 @@ function onoffLeicester(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locLeicesterCity,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1833,20 +2262,40 @@ function onoffLiverpool(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Liverpool',
         data: Liverpool,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locLiverpool,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1876,14 +2325,33 @@ function onoffLiverpool(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Liverpool',
@@ -1891,6 +2359,7 @@ function onoffLiverpool(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locLiverpool,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1950,20 +2419,40 @@ function onoffManCity(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'ManCity',
         data: ManCity,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locManchesterCity,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -1993,14 +2482,33 @@ function onoffManCity(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'ManCity',
@@ -2008,6 +2516,7 @@ function onoffManCity(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locManchesterCity,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2067,20 +2576,40 @@ function onoffManUnited(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'ManUtd',
         data: ManUtd,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locManchesterUnited,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2110,14 +2639,33 @@ function onoffManUnited(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'ManUtd',
@@ -2125,6 +2673,7 @@ function onoffManUnited(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locManchesterUnited,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2184,20 +2733,40 @@ function onoffNewcastle(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Newcastle',
         data: Newcastle,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locNewcastleUnited,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2227,14 +2796,33 @@ function onoffNewcastle(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Newcastle',
@@ -2242,6 +2830,7 @@ function onoffNewcastle(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locNewcastleUnited,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2300,20 +2889,40 @@ function onoffNorwich(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Norwich',
         data: Norwich,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locNorwichCity,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2343,14 +2952,33 @@ function onoffNorwich(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Norwich',
@@ -2358,6 +2986,7 @@ function onoffNorwich(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locNorwichCity,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2416,20 +3045,40 @@ function onoffSheffieldUtd(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'SheffieldUtd',
         data: SheffieldUtd,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locSheffieldUnited,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2459,14 +3108,33 @@ function onoffSheffieldUtd(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'SheffieldUtd',
@@ -2474,6 +3142,7 @@ function onoffSheffieldUtd(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locSheffieldUnited,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2532,20 +3201,40 @@ function onoffSouthampton(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Southampton',
         data: Southampton,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locSouthampton,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2575,14 +3264,33 @@ function onoffSouthampton(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Southampton',
@@ -2590,6 +3298,7 @@ function onoffSouthampton(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locSouthampton,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2650,20 +3359,40 @@ function onoffTottenham(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Tottenham',
         data: Tottenham,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locTottenham,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2693,14 +3422,33 @@ function onoffTottenham(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Tottenham',
@@ -2708,6 +3456,7 @@ function onoffTottenham(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locTottenham,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2767,20 +3516,40 @@ function onoffWatford(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Watford',
         data: Watford,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locWatford,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2810,14 +3579,33 @@ function onoffWatford(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Watford',
@@ -2825,6 +3613,7 @@ function onoffWatford(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locWatford,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2884,20 +3673,40 @@ function onoffWestHam(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'WestHam',
         data: WestHam,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locWestHam,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -2927,14 +3736,33 @@ function onoffWestHam(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'WestHam',
@@ -2942,6 +3770,7 @@ function onoffWestHam(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locWestHam,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3002,20 +3831,40 @@ function onoffWolverhampton(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
           
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
       new deck.ArcLayer({
         id: 'Wolverhampton',
         data: Wolverhampton,
         visible: true,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locWolverhampton,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3045,14 +3894,33 @@ function onoffWolverhampton(){
         getRadius: d => scalePoints(d.properties.nrOfNations),
         getFillColor: [241, 191, 0, 180],
         // Interactive props
-        pickable: true,
+        pickable: false,
         autoHighlight: true,
         onClick: info =>
           // eslint-disable-next-line
           info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
 
       }),
-      //LAYERs #2 -- clubs players and their home locations
+      new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
       new deck.ArcLayer({
         id: 'Wolverhampton',
@@ -3060,6 +3928,7 @@ function onoffWolverhampton(){
         visible: false,
         pickable: true,
         getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
         //getWidth: d => d.PlayersNr,
         getSourcePosition: d => locWolverhampton,
         getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3077,6 +3946,17 @@ function onoffWolverhampton(){
  /*
  **********Styling effects**********
  */
+
+//create pop-up
+
+/*
+function getTooltip({object}) {
+  return object && `Nationality:
+${object.nationality}
+Players Names:
+${object.PlayersNames}`;
+}
+*/
 
 //create point buffers according to nr of nations
 
@@ -3258,6 +4138,9 @@ function targetCol(tarName){
   else if (tarName == "Algeria") {
     tCol = [0, 114, 41] //La Salle Green
   }
+  else if (tarName == "Austria"){
+    tCol = [237, 41, 57] //Imperial Red
+  }
   else if (tarName == "Colombia" || tarName == "Uruguay") {
     tCol = [252, 209, 22] //Metallic Yellow
   }
@@ -3343,15 +4226,6 @@ function sourceCol(couName){
   return sCol
 }
 
-//create pop-up
-function getTooltip({object}) {
-    return object && `Team:
-  ${object.properties.Team}
-  Nr of nations:
-  ${object.properties.nrOfNations}`;
-  }
-//add more to popups
-
 
  /*
  **********Map init**********
@@ -3368,13 +4242,15 @@ const deckgl = new deck.DeckGL({
     longitude: -1.4157,
     latitude: 52.2324,
     zoom: 5,
-    minZoom: 3,
+    minZoom: 2,
     maxZoom: 25,
     pitch: 40.5,
     bearing: -27.396674584323023
     //bearing: -60
   },
   controller: true,
+  layers: [],
+  getTooltip: ({object}) => object && `Nationality: \n -> ${object.nationality} \nPlayers:\n-> ${object.PlayersNames}`       
 });
 
 //-----PROPS----
@@ -3391,20 +4267,43 @@ const layers = [
     getRadius: d => scalePoints(d.properties.nrOfNations),
     getFillColor: [241, 191, 0, 180],
     // Interactive props
-    pickable: true,
+    pickable: false,
     autoHighlight: true,
     onClick: info =>
       // eslint-disable-next-line
       info.object && alert(`Team: ${info.object.properties.Team} \n Nr of Nations:  (${info.object.properties.nrOfNations}) \n List of Nations: (${info.object.properties.listOfNations}) \n List of Nations and Players: (${info.object.properties.listOfNationsPlayers})`)
       
   }),
-//LAYERs #2 -- clubs players and their home locations
+//LAYERs #2 -- countries and their stats
+
+new deck.GeoJsonLayer({
+  id: 'countries',
+  data: countries,
+  visible: true,
+  // Styles
+  filled: true,
+  pointRadiusMinPixels: 3,
+  pointRadiusMaxPixels: 30, 
+  pointRadiusScale: 5,
+  getRadius: d => scalePoints(d.properties.PlayersNames),
+  getFillColor: d => targetCol(d.properties.nationality),
+  lineWidthMaxPixels: 5,
+  getLineColor: d => sourceCol(d.properties.nationality),
+  getLineWidth: d => scalePoints(d.properties.PlayersNames),
+  // Interactive props
+  pickable: false,
+  autoHighlight: true,
+}),
+
+//LAYERs #3 -- clubs players and their home locations
 
   new deck.ArcLayer({
     id: 'bournemouth',
     data: Bournemouth,
     pickable: true,
+    autoHighlight: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locBournemouth,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3414,10 +4313,11 @@ const layers = [
     info.object && alert(`${info.object.nationality} (${info.object.PlayersNames})`)
   }),
   new deck.ArcLayer({
-    id: 'arsenal',
+    id: 'Arsenal',
     data: Arsenal,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locArsenal,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3431,6 +4331,7 @@ const layers = [
     data: AstonVilla,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locAstonVilla,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3444,6 +4345,7 @@ const layers = [
     data: Brighton,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locBrighton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3457,6 +4359,7 @@ const layers = [
     data: Burnley,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locBurnley,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3470,6 +4373,7 @@ const layers = [
     data: Chelsea,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locChelsea,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3483,6 +4387,7 @@ const layers = [
     data: CrystalPalace,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locCrystalPalace,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3496,6 +4401,7 @@ const layers = [
     data: Everton,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locEverton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3509,6 +4415,7 @@ const layers = [
     data: Leicester,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locLeicesterCity,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3522,6 +4429,7 @@ const layers = [
     data: Liverpool,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locLiverpool,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3535,6 +4443,7 @@ const layers = [
     data: ManCity,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locManchesterCity,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3548,6 +4457,7 @@ const layers = [
     data: ManUtd,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locManchesterUnited,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3561,6 +4471,7 @@ const layers = [
     data: Newcastle,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locNewcastleUnited,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3574,6 +4485,7 @@ const layers = [
     data: Norwich,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locNorwichCity,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3587,6 +4499,7 @@ const layers = [
     data: SheffieldUtd,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locSheffieldUnited,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3600,6 +4513,7 @@ const layers = [
     data: Southampton,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locSouthampton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3613,6 +4527,7 @@ const layers = [
     data: Tottenham,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locTottenham,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3626,6 +4541,7 @@ const layers = [
     data: Watford,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locWatford,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3639,6 +4555,7 @@ const layers = [
     data: WestHam,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locWestHam,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],
@@ -3652,6 +4569,7 @@ const layers = [
     data: Wolverhampton,
     pickable: true,
     getWidth: d => scaleWidth(d.PlayersNr),
+autoHighlight: true,
     //getWidth: d => d.PlayersNr,
     getSourcePosition: d => locWolverhampton,
     getTargetPosition: d => [d.LongCentroid, d.LatCentroid],

@@ -1,0 +1,812 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "Countries",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.183963, 56.816738 ]
+			},
+			"properties" : {
+				"PlayersNames" : "17",
+				"nationality" : "Scotland",
+				"LongCentroid" : -4.183963,
+				"LatCentroid" : 56.816738
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 10.38578051, 51.10698181 ]
+			},
+			"properties" : {
+				"PlayersNames" : "18",
+				"nationality" : "Germany",
+				"LongCentroid" : 10.38578051,
+				"LatCentroid" : 51.10698181
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 15.34834656, 68.75015572 ]
+			},
+			"properties" : {
+				"PlayersNames" : "5",
+				"nationality" : "Norway",
+				"LongCentroid" : 15.34834656,
+				"LatCentroid" : 68.75015572
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -6.693145, 54.607577 ]
+			},
+			"properties" : {
+				"PlayersNames" : "6",
+				"nationality" : "Northern Ireland",
+				"LongCentroid" : -6.693145,
+				"LatCentroid" : 54.607577
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.08943895, 9.59411452 ]
+			},
+			"properties" : {
+				"PlayersNames" : "8",
+				"nationality" : "Nigeria",
+				"LongCentroid" : 8.08943895,
+				"LatCentroid" : 9.59411452
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -68.97119369, 12.19551675 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Curacao",
+				"LongCentroid" : -68.97119369,
+				"LatCentroid" : 12.19551675
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -73.08114582, 3.91383431 ]
+			},
+			"properties" : {
+				"PlayersNames" : "6",
+				"nationality" : "Colombia",
+				"LongCentroid" : -73.08114582,
+				"LatCentroid" : 3.91383431
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.7617294452, 46.7617294452 ]
+			},
+			"properties" : {
+				"PlayersNames" : "33",
+				"nationality" : "France",
+				"LongCentroid" : 2.76172944519,
+				"LatCentroid" : 46.76172944519
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 10.02800992, 55.98125296 ]
+			},
+			"properties" : {
+				"PlayersNames" : "9",
+				"nationality" : "Denmark",
+				"LongCentroid" : 10.02800992,
+				"LatCentroid" : 55.98125296
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 127.83916086, 36.38523983 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Korea Republic",
+				"LongCentroid" : 127.83916086,
+				"LatCentroid" : 36.38523983
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 24.97293039, 45.85243127 ]
+			},
+			"properties" : {
+				"PlayersNames" : "4",
+				"nationality" : "Romania",
+				"LongCentroid" : 24.97293039,
+				"LatCentroid" : 45.85243127
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -1.21676566, 7.95345644 ]
+			},
+			"properties" : {
+				"PlayersNames" : "6",
+				"nationality" : "Ghana",
+				"LongCentroid" : -1.21676566,
+				"LatCentroid" : 7.95345644
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.07001339, 42.79662641 ]
+			},
+			"properties" : {
+				"PlayersNames" : "10",
+				"nationality" : "Italy",
+				"LongCentroid" : 12.07001339,
+				"LatCentroid" : 42.79662641
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 14.1264761, 47.58549439 ]
+			},
+			"properties" : {
+				"PlayersNames" : "4",
+				"nationality" : "Austria",
+				"LongCentroid" : 14.1264761,
+				"LatCentroid" : 47.58549439
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 37.79593973, 0.59988022 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Kenya",
+				"LongCentroid" : 37.79593973,
+				"LatCentroid" : 0.59988022
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -53.09783113, -10.78777702 ]
+			},
+			"properties" : {
+				"PlayersNames" : "23",
+				"nationality" : "Brazil",
+				"LongCentroid" : -53.09783113,
+				"LatCentroid" : -10.78777702
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -10.94066612, 10.43621593 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Guinea",
+				"LongCentroid" : -10.94066612,
+				"LatCentroid" : 10.43621593
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 20.78958334, 44.2215032 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Serbia",
+				"LongCentroid" : 20.78958334,
+				"LatCentroid" : 44.2215032
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 44.92993276, 40.28952569 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Armenia",
+				"LongCentroid" : 44.92993276,
+				"LatCentroid" : 40.28952569
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 16.74558049, 62.77966519 ]
+			},
+			"properties" : {
+				"PlayersNames" : "4",
+				"nationality" : "Sweden",
+				"LongCentroid" : 16.74558049,
+				"LatCentroid" : 62.77966519
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.8514412, -19.00420419 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Zimbabwe",
+				"LongCentroid" : 29.8514412,
+				"LatCentroid" : -19.00420419
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 31.38326469, 48.99656673 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Ukraine",
+				"LongCentroid" : 31.38326469,
+				"LatCentroid" : 48.99656673
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -8.45615795, 29.83762955 ]
+			},
+			"properties" : {
+				"PlayersNames" : "4",
+				"nationality" : "Morocco",
+				"LongCentroid" : -8.45615795,
+				"LatCentroid" : 29.83762955
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -56.01807053, -32.79951534 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Uruguay",
+				"LongCentroid" : -56.01807053,
+				"LatCentroid" : -32.79951534
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 26.2746656, 64.49884603 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Finland",
+				"LongCentroid" : 26.2746656,
+				"LatCentroid" : 64.49884603
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 35.00444693, 31.46110101 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Israel",
+				"LongCentroid" : 35.00444693,
+				"LatCentroid" : 31.46110101
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -8.50104361, 39.59550671 ]
+			},
+			"properties" : {
+				"PlayersNames" : "19",
+				"nationality" : "Portugal",
+				"LongCentroid" : -8.50104361,
+				"LatCentroid" : 39.59550671
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -102.52345169, 23.94753724 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Mexico",
+				"LongCentroid" : -102.52345169,
+				"LatCentroid" : 23.94753724
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 22.95555794, 39.07469623 ]
+			},
+			"properties" : {
+				"PlayersNames" : "3",
+				"nationality" : "Greece",
+				"LongCentroid" : 22.95555794,
+				"LatCentroid" : 39.07469623
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -58.40013703, -23.22823913 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Paraguay",
+				"LongCentroid" : -58.40013703,
+				"LatCentroid" : -23.22823913
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -3.54269065, 17.34581581 ]
+			},
+			"properties" : {
+				"PlayersNames" : "3",
+				"nationality" : "Mali",
+				"LongCentroid" : -3.54269065,
+				"LatCentroid" : 17.34581581
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.20867471, 46.79785878 ]
+			},
+			"properties" : {
+				"PlayersNames" : "8",
+				"nationality" : "Switzerland",
+				"LongCentroid" : 8.20867471,
+				"LatCentroid" : 46.79785878
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 5.28144793, 52.1007899 ]
+			},
+			"properties" : {
+				"PlayersNames" : "23",
+				"nationality" : "Netherlands",
+				"LongCentroid" : 5.28144793,
+				"LatCentroid" : 52.1007899
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -3.64755047, 40.24448698 ]
+			},
+			"properties" : {
+				"PlayersNames" : "32",
+				"nationality" : "Spain",
+				"LongCentroid" : -3.64755047,
+				"LatCentroid" : 40.24448698
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 35.16895346, 39.0616029 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Turkey",
+				"LongCentroid" : 35.16895346,
+				"LatCentroid" : 39.0616029
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 19.47905218, 48.70547528 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Slovakia",
+				"LongCentroid" : 19.47905218,
+				"LatCentroid" : 48.70547528
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.61732301, 28.15893849 ]
+			},
+			"properties" : {
+				"PlayersNames" : "4",
+				"nationality" : "Algeria",
+				"LongCentroid" : 2.61732301,
+				"LatCentroid" : 28.15893849
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.73964156, 5.69109849 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Cameroon",
+				"LongCentroid" : 12.73964156,
+				"LatCentroid" : 5.69109849
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 33.0060022, 34.91667211 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Cyprus",
+				"LongCentroid" : 33.0060022,
+				"LatCentroid" : 34.91667211
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 15.31240163, 49.73341233 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Czech Republic",
+				"LongCentroid" : 15.31240163,
+				"LatCentroid" : 49.73341233
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -3.766409, 52.33022 ]
+			},
+			"properties" : {
+				"PlayersNames" : "13",
+				"nationality" : "Wales",
+				"LongCentroid" : -3.766409,
+				"LatCentroid" : 52.33022
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -65.17980692, -35.3813488 ]
+			},
+			"properties" : {
+				"PlayersNames" : "17",
+				"nationality" : "Argentina",
+				"LongCentroid" : -65.17980692,
+				"LatCentroid" : -35.3813488
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.64065114, 50.63981576 ]
+			},
+			"properties" : {
+				"PlayersNames" : "15",
+				"nationality" : "Belgium",
+				"LongCentroid" : 4.64065114,
+				"LatCentroid" : 50.63981576
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -18.57396167, 64.99575386 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Iceland",
+				"LongCentroid" : -18.57396167,
+				"LatCentroid" : 64.99575386
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -71.38256213, -37.73070989 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Chile",
+				"LongCentroid" : -71.38256213,
+				"LatCentroid" : -37.73070989
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -77.31482593, 18.15694878 ]
+			},
+			"properties" : {
+				"PlayersNames" : "3",
+				"nationality" : "Jamaica",
+				"LongCentroid" : -77.31482593,
+				"LatCentroid" : 18.15694878
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 15.21965762, -0.83787463 ]
+			},
+			"properties" : {
+				"PlayersNames" : "5",
+				"nationality" : "DR Congo",
+				"LongCentroid" : 15.21965762,
+				"LatCentroid" : -0.83787463
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 134.49100008, -25.73288704 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Australia",
+				"LongCentroid" : 134.49100008,
+				"LatCentroid" : -25.73288704
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 11.7886287, -0.58660025 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Gabon",
+				"LongCentroid" : 11.7886287,
+				"LatCentroid" : -0.58660025
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 16.40412899, 45.08047631 ]
+			},
+			"properties" : {
+				"PlayersNames" : "5",
+				"nationality" : "Croatia",
+				"LongCentroid" : 16.40412899,
+				"LatCentroid" : 45.08047631
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 19.39012835, 52.12759564 ]
+			},
+			"properties" : {
+				"PlayersNames" : "5",
+				"nationality" : "Poland",
+				"LongCentroid" : 19.39012835,
+				"LatCentroid" : 52.12759564
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -14.4734924, 14.36624173 ]
+			},
+			"properties" : {
+				"PlayersNames" : "5",
+				"nationality" : "Senegal",
+				"LongCentroid" : -14.4734924,
+				"LatCentroid" : 14.36624173
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -66.18184123, 7.12422421 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Venezuela",
+				"LongCentroid" : -66.18184123,
+				"LatCentroid" : 7.12422421
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.86190099, 26.49593311 ]
+			},
+			"properties" : {
+				"PlayersNames" : "4",
+				"nationality" : "Egypt",
+				"LongCentroid" : 29.86190099,
+				"LatCentroid" : 26.49593311
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -8.13793569, 53.1754487 ]
+			},
+			"properties" : {
+				"PlayersNames" : "30",
+				"nationality" : "Republic of Ireland",
+				"LongCentroid" : -8.13793569,
+				"LatCentroid" : 53.1754487
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -112.4616737, 45.6795472 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "United States",
+				"LongCentroid" : -112.4616737,
+				"LatCentroid" : 45.6795472
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.76876733, 44.17450125 ]
+			},
+			"properties" : {
+				"PlayersNames" : "4",
+				"nationality" : "Bosnia Herzegovina",
+				"LongCentroid" : 17.76876733,
+				"LatCentroid" : 44.17450125
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 171.48492347, -41.81113557 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "New Zealand",
+				"LongCentroid" : 171.48492347,
+				"LatCentroid" : -41.81113557
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -1.464854, 52.561928 ]
+			},
+			"properties" : {
+				"PlayersNames" : "257",
+				"nationality" : "England",
+				"LongCentroid" : -1.464854,
+				"LatCentroid" : 52.561928
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -5.5692157, 7.6284262 ]
+			},
+			"properties" : {
+				"PlayersNames" : "6",
+				"nationality" : "Ivory Coast",
+				"LongCentroid" : -5.5692157,
+				"LatCentroid" : 7.6284262
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 138.03089558, 37.59230135 ]
+			},
+			"properties" : {
+				"PlayersNames" : "2",
+				"nationality" : "Japan",
+				"LongCentroid" : 138.03089558,
+				"LatCentroid" : 37.59230135
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 54.27407004, 32.57503292 ]
+			},
+			"properties" : {
+				"PlayersNames" : "1",
+				"nationality" : "Iran",
+				"LongCentroid" : 54.27407004,
+				"LatCentroid" : 32.57503292
+			}
+		}
+	]
+}

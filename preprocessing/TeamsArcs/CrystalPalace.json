@@ -4,7 +4,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : -5.5692157,
 		"LatCentroid" : 7.6284262,
-		"PlayersNames" : "Wilfried Zaha",
+		"PlayersNames" : "Wilfried Zaha \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "James McArthur",
+		"PlayersNames" : "James McArthur \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : 15.21965762,
 		"LatCentroid" : -0.83787463,
-		"PlayersNames" : "Jason Lokilo",
+		"PlayersNames" : "Jason Lokilo \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : 20.78958334,
 		"LatCentroid" : 44.2215032,
-		"PlayersNames" : "Luka Milivojević",
+		"PlayersNames" : "Luka Milivojević \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "Vicente Guaita Panadero;Víctor Camarasa Ferrando",
+		"PlayersNames" : "Vicente Guaita Panadero \n ;Víctor Camarasa Ferrando \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : 19.39012835,
 		"LatCentroid" : 52.12759564,
-		"PlayersNames" : "Jarosław Jach",
+		"PlayersNames" : "Jarosław Jach \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : -1.21676566,
 		"LatCentroid" : 7.95345644,
-		"PlayersNames" : "Jordan Ayew;Jeffrey Schlupp",
+		"PlayersNames" : "Jordan Ayew \n ;Jeffrey Schlupp \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : 10.38578051,
 		"LatCentroid" : 51.10698181,
-		"PlayersNames" : "Max  Meyer",
+		"PlayersNames" : "Max  Meyer \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,15 +68,15 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : 16.40412899,
 		"LatCentroid" : 45.08047631,
-		"PlayersNames" : "Nikola Tavares",
+		"PlayersNames" : "Nikola Tavares \n ",
 		"PlayersNr" : 1
 	},
 	{
 		"nationality" : "France",
 		"Team" : "Crystal Palace ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Mamadou Sakho",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Mamadou Sakho \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Patrick  van Aanholt;Jaïro Riedewald",
+		"PlayersNames" : "Patrick  van Aanholt \n ;Jaïro Riedewald \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : -14.4734924,
 		"LatCentroid" : 14.36624173,
-		"PlayersNames" : "Cheikhou Kouyaté",
+		"PlayersNames" : "Cheikhou Kouyaté \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : -3.766409,
 		"LatCentroid" : 52.33022,
-		"PlayersNames" : "Wayne  Hennessey",
+		"PlayersNames" : "Wayne  Hennessey \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -108,7 +108,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "James Tomkins;Andros Townsend;Gary Cahill;Martin Kelly;Scott Dann;Joel Ward;Connor Wickham;Ryan Inniss;Nya Kirby;James Daly;Luke Dreher;Giovanni McGregor;Sam Woods",
+		"PlayersNames" : "James Tomkins \n ;Andros Townsend \n ;Gary Cahill \n ;Martin Kelly \n ;Scott Dann \n ;Joel Ward \n ;Connor Wickham \n ;Ryan Inniss \n ;Nya Kirby \n ;James Daly \n ;Luke Dreher \n ;Giovanni McGregor \n ;Sam Woods \n ",
 		"PlayersNr" : 13
 	},
 	{
@@ -116,7 +116,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Christian Benteke Liolo",
+		"PlayersNames" : "Christian Benteke Liolo \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -124,7 +124,7 @@
 		"Team" : "Crystal Palace ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "James McCarthy;Stephen Henderson;Kian Flanagan",
+		"PlayersNames" : "James McCarthy \n ;Stephen Henderson \n ;Kian Flanagan \n ",
 		"PlayersNr" : 3
 	}
 ]

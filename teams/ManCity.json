@@ -4,7 +4,7 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Kevin De Bruyne",
+		"PlayersNames" : "Kevin De Bruyne \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : 2.61732301,
 		"LatCentroid" : 28.15893849,
-		"PlayersNames" : "Riyad Mahrez",
+		"PlayersNames" : "Riyad Mahrez \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "David Josué Jiménez Silva;Rodrigo Hernández Cascante;José Ángel Esmoris Tasende;Aleix García Serrano;Eric García Martret",
+		"PlayersNames" : "David Josué Jiménez Silva \n ;Rodrigo Hernández Cascante \n ;José Ángel Esmoris Tasende \n ;Aleix García Serrano \n ;Eric García Martret \n ",
 		"PlayersNr" : 5
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : 8.20867471,
 		"LatCentroid" : 46.79785878,
-		"PlayersNames" : "Lorenzo Gonzalez",
+		"PlayersNames" : "Lorenzo Gonzalez \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : -53.09783113,
 		"LatCentroid" : -10.78777702,
-		"PlayersNames" : "Ederson Santana de Moraes;Fernando Luiz Rosa;Gabriel Fernando de Jesus",
+		"PlayersNames" : "Ederson Santana de Moraes \n ;Fernando Luiz Rosa \n ;Gabriel Fernando de Jesus \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : -8.50104361,
 		"LatCentroid" : 39.59550671,
-		"PlayersNames" : "Bernardo Mota Veiga de Carvalho e Silva;João Pedro Cavaco Cancelo",
+		"PlayersNames" : "Bernardo Mota Veiga de Carvalho e Silva \n ;João Pedro Cavaco Cancelo \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : 10.38578051,
 		"LatCentroid" : 51.10698181,
-		"PlayersNames" : "Leroy Sané;İlkay Gündoğan",
+		"PlayersNames" : "Leroy Sané \n ;İlkay Gündoğan \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -60,15 +60,15 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : -65.17980692,
 		"LatCentroid" : -35.3813488,
-		"PlayersNames" : "Sergio Leonel Agüero del Castillo;Nicolás Hernán Otamendi;Benjamín Garré",
+		"PlayersNames" : "Sergio Leonel Agüero del Castillo \n ;Nicolás Hernán Otamendi \n ;Benjamín Garré \n ",
 		"PlayersNr" : 3
 	},
 	{
 		"nationality" : "France",
 		"Team" : "Manchester City ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Aymeric  Laporte;Benjamin Mendy;Claudio Gomes",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Aymeric  Laporte \n ;Benjamin Mendy \n ;Claudio Gomes \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Gavin Bazunu;Tyreke Wilson",
+		"PlayersNames" : "Gavin Bazunu \n ;Tyreke Wilson \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Raheem Sterling;Kyle Walker;John Stones;Philip Foden;Scott  Carson;Felix Nmecha;Joel Latibeaudiere;Daniel Grimshaw",
+		"PlayersNames" : "Raheem Sterling \n ;Kyle Walker \n ;John Stones \n ;Philip Foden \n ;Scott  Carson \n ;Felix Nmecha \n ;Joel Latibeaudiere \n ;Daniel Grimshaw \n ",
 		"PlayersNr" : 8
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : -71.38256213,
 		"LatCentroid" : -37.73070989,
-		"PlayersNames" : "Claudio Andrés Bravo Muñoz",
+		"PlayersNames" : "Claudio Andrés Bravo Muñoz \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Manchester City ",
 		"LongCentroid" : 31.38326469,
 		"LatCentroid" : 48.99656673,
-		"PlayersNames" : "Oleksandr Zinchenko",
+		"PlayersNames" : "Oleksandr Zinchenko \n ",
 		"PlayersNr" : 1
 	}
 ]

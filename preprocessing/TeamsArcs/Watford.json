@@ -2,9 +2,9 @@
 	{
 		"nationality" : "France",
 		"Team" : "Watford ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Abdoulaye Doucouré;Etienne Capoue;Dimitri Foulquier",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Abdoulaye Doucouré \n ;Etienne Capoue \n ;Dimitri Foulquier \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : 16.74558049,
 		"LatCentroid" : 62.77966519,
-		"PlayersNames" : "Ken Sema;Pontus Dahlberg",
+		"PlayersNames" : "Ken Sema \n ;Pontus Dahlberg \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : 22.95555794,
 		"LatCentroid" : 39.07469623,
-		"PlayersNames" : "Jose Holebas",
+		"PlayersNames" : "Jose Holebas \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : -6.693145,
 		"LatCentroid" : 54.607577,
-		"PlayersNames" : "Craig Cathcart",
+		"PlayersNames" : "Craig Cathcart \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "Gerard Deulofeu Lázaro;Francisco Femenía Far",
+		"PlayersNames" : "Gerard Deulofeu Lázaro \n ;Francisco Femenía Far \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : -73.08114582,
 		"LatCentroid" : 3.91383431,
-		"PlayersNames" : "Juan Camilo Hernández",
+		"PlayersNames" : "Juan Camilo Hernández \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : 14.1264761,
 		"LatCentroid" : 47.58549439,
-		"PlayersNames" : "Sebastian Prödl;Daniel Bachmann",
+		"PlayersNames" : "Sebastian Prödl \n ;Daniel Bachmann \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : -77.31482593,
 		"LatCentroid" : 18.15694878,
-		"PlayersNames" : "Adrian Mariappa",
+		"PlayersNames" : "Adrian Mariappa \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : -53.09783113,
 		"LatCentroid" : -10.78777702,
-		"PlayersNames" : "Heurelho da Silva Gomes",
+		"PlayersNames" : "Heurelho da Silva Gomes \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : -8.50104361,
 		"LatCentroid" : 39.59550671,
-		"PlayersNames" : "Domingos Quina",
+		"PlayersNames" : "Domingos Quina \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : 8.08943895,
 		"LatCentroid" : 9.59411452,
-		"PlayersNames" : "Isaac Success;Tom Dele-Bashiru",
+		"PlayersNames" : "Isaac Success \n ;Tom Dele-Bashiru \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : -65.17980692,
 		"LatCentroid" : -35.3813488,
-		"PlayersNames" : "Roberto Pereyra",
+		"PlayersNames" : "Roberto Pereyra \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Daryl Janmaat;Marvin Zeegelaar",
+		"PlayersNames" : "Daryl Janmaat \n ;Marvin Zeegelaar \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -108,7 +108,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Christian Kabasele",
+		"PlayersNames" : "Christian Kabasele \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -116,7 +116,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : -14.4734924,
 		"LatCentroid" : 14.36624173,
-		"PlayersNames" : "Ismaïla Sarr",
+		"PlayersNames" : "Ismaïla Sarr \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -124,7 +124,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Ben Foster;Troy Deeney;Daniel Nii Tackie Mensah Welbeck;Will Hughes;Tom Cleverley;Andre Gray;Nathaniel Chalobah;Craig Dawson",
+		"PlayersNames" : "Ben Foster \n ;Troy Deeney \n ;Daniel Nii Tackie Mensah Welbeck \n ;Will Hughes \n ;Tom Cleverley \n ;Andre Gray \n ;Nathaniel Chalobah \n ;Craig Dawson \n ",
 		"PlayersNr" : 8
 	},
 	{
@@ -132,7 +132,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : 12.07001339,
 		"LatCentroid" : 42.79662641,
-		"PlayersNames" : "Stefano Okaka Chuka;Adam Masina",
+		"PlayersNames" : "Stefano Okaka Chuka \n ;Adam Masina \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -140,7 +140,7 @@
 		"Team" : "Watford ",
 		"LongCentroid" : -66.18184123,
 		"LatCentroid" : 7.12422421,
-		"PlayersNames" : "Adalberto Peñaranda",
+		"PlayersNames" : "Adalberto Peñaranda \n ",
 		"PlayersNr" : 1
 	}
 ]

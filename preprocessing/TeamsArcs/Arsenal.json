@@ -4,7 +4,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : 11.7886287,
 		"LatCentroid" : -0.58660025,
-		"PlayersNames" : "Pierre-Emerick Aubameyang",
+		"PlayersNames" : "Pierre-Emerick Aubameyang \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : -5.5692157,
 		"LatCentroid" : 7.6284262,
-		"PlayersNames" : "Nicolas Pépé",
+		"PlayersNames" : "Nicolas Pépé \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : 17.76876733,
 		"LatCentroid" : 44.17450125,
-		"PlayersNames" : "Sead Kolašinac",
+		"PlayersNames" : "Sead Kolašinac \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : 22.95555794,
 		"LatCentroid" : 39.07469623,
-		"PlayersNames" : "Sokratis Papastathopoulos;Konstantinos Mavropanos",
+		"PlayersNames" : "Sokratis Papastathopoulos \n ;Konstantinos Mavropanos \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "Kieran Tierney",
+		"PlayersNames" : "Kieran Tierney \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "Daniel Ceballos Fernández;Héctor Bellerín Moruno;Ignacio Monreal Eraso",
+		"PlayersNames" : "Daniel Ceballos Fernández \n ;Héctor Bellerín Moruno \n ;Ignacio Monreal Eraso \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : -56.01807053,
 		"LatCentroid" : -32.79951534,
-		"PlayersNames" : "Lucas Torreira Di Pascua",
+		"PlayersNames" : "Lucas Torreira Di Pascua \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : 29.86190099,
 		"LatCentroid" : 26.49593311,
-		"PlayersNames" : "Mohamed Naser Elsayed Elneny",
+		"PlayersNames" : "Mohamed Naser Elsayed Elneny \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : 8.20867471,
 		"LatCentroid" : 46.79785878,
-		"PlayersNames" : "Granit Xhaka",
+		"PlayersNames" : "Granit Xhaka \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : 44.92993276,
 		"LatCentroid" : 40.28952569,
-		"PlayersNames" : "Henrikh Mkhitaryan",
+		"PlayersNames" : "Henrikh Mkhitaryan \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : -53.09783113,
 		"LatCentroid" : -10.78777702,
-		"PlayersNames" : "David Luiz Moreira Marinho;Gabriel Teodoro Martinelli Silva",
+		"PlayersNames" : "David Luiz Moreira Marinho \n ;Gabriel Teodoro Martinelli Silva \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : 10.38578051,
 		"LatCentroid" : 51.10698181,
-		"PlayersNames" : "Bernd Leno;Mesut Özil;Shkodran Mustafi",
+		"PlayersNames" : "Bernd Leno \n ;Mesut Özil \n ;Shkodran Mustafi \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -100,15 +100,15 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : 8.08943895,
 		"LatCentroid" : 9.59411452,
-		"PlayersNames" : "Kelechi Nwakali",
+		"PlayersNames" : "Kelechi Nwakali \n ",
 		"PlayersNr" : 1
 	},
 	{
 		"nationality" : "France",
 		"Team" : "Arsenal ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Alexandre Lacazette;Mattéo Guendouzi",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Alexandre Lacazette \n ;Mattéo Guendouzi \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -116,7 +116,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : -65.17980692,
 		"LatCentroid" : -35.3813488,
-		"PlayersNames" : "Emiliano Martínez",
+		"PlayersNames" : "Emiliano Martínez \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -124,7 +124,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : -3.766409,
 		"LatCentroid" : 52.33022,
-		"PlayersNames" : "Robbie Burton",
+		"PlayersNames" : "Robbie Burton \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -132,7 +132,7 @@
 		"Team" : "Arsenal ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Rob Holding;Ainsley Maitland-Niles;Calum Chambers;Reiss Nelson;Joseph Willock;Matt Macey;Bukayo Saka;Emile Smith Rowe;Zechariah Medley;Tyreece John-Jules",
+		"PlayersNames" : "Rob Holding \n ;Ainsley Maitland-Niles \n ;Calum Chambers \n ;Reiss Nelson \n ;Joseph Willock \n ;Matt Macey \n ;Bukayo Saka \n ;Emile Smith Rowe \n ;Zechariah Medley \n ;Tyreece John-Jules \n ",
 		"PlayersNr" : 10
 	}
 ]

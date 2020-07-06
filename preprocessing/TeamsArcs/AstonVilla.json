@@ -4,7 +4,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Tom Heaton;Jack Grealish;Tyrone Mings;Matt Targett;Ezri Konsa;Jed Steer;Henri  Lansbury;Kortney Hause;Keinan Davis;Callum O'Hare;Dominic Revan;Easah Suliman;Jacob Ramsey;Jordan Cox;Callum Rowe",
+		"PlayersNames" : "Tom Heaton \n ;Jack Grealish \n ;Tyrone Mings \n ;Matt Targett \n ;Ezri Konsa \n ;Jed Steer \n ;Henri  Lansbury \n ;Kortney Hause \n ;Keinan Davis \n ;Callum O'Hare \n ;Dominic Revan \n ;Easah Suliman \n ;Jacob Ramsey \n ;Jordan Cox \n ;Callum Rowe \n ",
 		"PlayersNr" : 15
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "John McGinn",
+		"PlayersNames" : "John McGinn \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : -5.5692157,
 		"LatCentroid" : 7.6284262,
-		"PlayersNames" : "Jonathan Kodjia",
+		"PlayersNames" : "Jonathan Kodjia \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : 29.86190099,
 		"LatCentroid" : 26.49593311,
-		"PlayersNames" : "Mahmoud Hassan;Ahmed Eissa  El Mohamady Abdel Fattah",
+		"PlayersNames" : "Mahmoud Hassan \n ;Ahmed Eissa  El Mohamady Abdel Fattah \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "José Ignacio Peleteiro Ramallo",
+		"PlayersNames" : "José Ignacio Peleteiro Ramallo \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : 29.8514412,
 		"LatCentroid" : -19.00420419,
-		"PlayersNames" : "Marvelous Nakamba",
+		"PlayersNames" : "Marvelous Nakamba \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : -53.09783113,
 		"LatCentroid" : -10.78777702,
-		"PlayersNames" : "Wesley Moraes Ferreira da Silva;Douglas Luiz Soares de Paulo",
+		"PlayersNames" : "Wesley Moraes Ferreira da Silva \n ;Douglas Luiz Soares de Paulo \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -60,15 +60,15 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : 16.40412899,
 		"LatCentroid" : 45.08047631,
-		"PlayersNames" : "Lovre Kalinić",
+		"PlayersNames" : "Lovre Kalinić \n ",
 		"PlayersNr" : 1
 	},
 	{
 		"nationality" : "France",
 		"Team" : "Aston Villa ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Frédéric Guilbert",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Frédéric Guilbert \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Anwar El Ghazi",
+		"PlayersNames" : "Anwar El Ghazi \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Björn Engels",
+		"PlayersNames" : "Björn Engels \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : -3.766409,
 		"LatCentroid" : 52.33022,
-		"PlayersNames" : "James Chester;Neil Taylor",
+		"PlayersNames" : "James Chester \n ;Neil Taylor \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Conor Hourihane;Jack Clarke",
+		"PlayersNames" : "Conor Hourihane \n ;Jack Clarke \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -108,7 +108,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : 15.34834656,
 		"LatCentroid" : 68.75015572,
-		"PlayersNames" : "Ørjan  Håskjold Nyland",
+		"PlayersNames" : "Ørjan  Håskjold Nyland \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -116,7 +116,7 @@
 		"Team" : "Aston Villa ",
 		"LongCentroid" : 15.21965762,
 		"LatCentroid" : -0.83787463,
-		"PlayersNames" : "Aaron Tshibola",
+		"PlayersNames" : "Aaron Tshibola \n ",
 		"PlayersNr" : 1
 	}
 ]

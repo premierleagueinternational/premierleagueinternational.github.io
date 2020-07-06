@@ -4,7 +4,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Virgil van Dijk;Georginio Wijnaldum;Sepp van den Berg;Ki-Jana Hoever",
+		"PlayersNames" : "Virgil van Dijk \n ;Georginio Wijnaldum \n ;Sepp van den Berg \n ;Ki-Jana Hoever \n ",
 		"PlayersNr" : 4
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "Andrew Robertson",
+		"PlayersNames" : "Andrew Robertson \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : 2.61732301,
 		"LatCentroid" : 28.15893849,
-		"PlayersNames" : "Yasser Larouci",
+		"PlayersNames" : "Yasser Larouci \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : 29.86190099,
 		"LatCentroid" : 26.49593311,
-		"PlayersNames" : "Mohamed  Salah Ghaly",
+		"PlayersNames" : "Mohamed  Salah Ghaly \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "Adrián San Miguel del Castillo;Pedro Chirivella Burgos",
+		"PlayersNames" : "Adrián San Miguel del Castillo \n ;Pedro Chirivella Burgos \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : -10.94066612,
 		"LatCentroid" : 10.43621593,
-		"PlayersNames" : "Naby Keïta",
+		"PlayersNames" : "Naby Keïta \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : 8.20867471,
 		"LatCentroid" : 46.79785878,
-		"PlayersNames" : "Xherdan Shaqiri",
+		"PlayersNames" : "Xherdan Shaqiri \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : -53.09783113,
 		"LatCentroid" : -10.78777702,
-		"PlayersNames" : "Alisson Ramses Becker;Roberto Firmino Barbosa de Oliveira;Fábio Henrique Tavares",
+		"PlayersNames" : "Alisson Ramses Becker \n ;Roberto Firmino Barbosa de Oliveira \n ;Fábio Henrique Tavares \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : 10.38578051,
 		"LatCentroid" : 51.10698181,
-		"PlayersNames" : "Paul Glatzel",
+		"PlayersNames" : "Paul Glatzel \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : 16.40412899,
 		"LatCentroid" : 45.08047631,
-		"PlayersNames" : "Dejan Lovren",
+		"PlayersNames" : "Dejan Lovren \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : 12.73964156,
 		"LatCentroid" : 5.69109849,
-		"PlayersNames" : "Joël Andre Job Matip",
+		"PlayersNames" : "Joël Andre Job Matip \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Caoimhin Kelleher",
+		"PlayersNames" : "Caoimhin Kelleher \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : -14.4734924,
 		"LatCentroid" : 14.36624173,
-		"PlayersNames" : "Sadio Mané",
+		"PlayersNames" : "Sadio Mané \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -108,7 +108,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Divock Origi",
+		"PlayersNames" : "Divock Origi \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -116,7 +116,7 @@
 		"Team" : "Liverpool ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Trent Alexander-Arnold;Jordan Brian Henderson;James Philip Milner;Joe Gomez;Alex Oxlade-Chamberlain;Adam David Lallana;Nathaniel Edwin Clyne;Ryan Kent;Herbie Kane;Andrew Lonergan;Rhian Brewster;Curtis Jones;Adam Lewis",
+		"PlayersNames" : "Trent Alexander-Arnold \n ;Jordan Brian Henderson \n ;James Philip Milner \n ;Joe Gomez \n ;Alex Oxlade-Chamberlain \n ;Adam David Lallana \n ;Nathaniel Edwin Clyne \n ;Ryan Kent \n ;Herbie Kane \n ;Andrew Lonergan \n ;Rhian Brewster \n ;Curtis Jones \n ;Adam Lewis \n ",
 		"PlayersNr" : 13
 	}
 ]

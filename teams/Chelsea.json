@@ -2,9 +2,9 @@
 	{
 		"nationality" : "France",
 		"Team" : "Chelsea ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "N'Golo Kanté;Olivier Giroud;Tiémoué Bakayoko;Kurt Happy Zouma",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "N'Golo Kanté \n ;Olivier Giroud \n ;Tiémoué Bakayoko \n ;Kurt Happy Zouma \n ",
 		"PlayersNr" : 4
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "Billy Gilmour",
+		"PlayersNames" : "Billy Gilmour \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "Kepa Arrizabalaga;César Azpilicueta Tanco;Pedro Eliezer Rodríguez Ledesma;Marcos Alonso Mendoza",
+		"PlayersNames" : "Kepa Arrizabalaga \n ;César Azpilicueta Tanco \n ;Pedro Eliezer Rodríguez Ledesma \n ;Marcos Alonso Mendoza \n ",
 		"PlayersNr" : 4
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : 10.02800992,
 		"LatCentroid" : 55.98125296,
-		"PlayersNames" : "Andreas Christensen",
+		"PlayersNames" : "Andreas Christensen \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : -112.4616737,
 		"LatCentroid" : 45.6795472,
-		"PlayersNames" : "Christian Pulisic",
+		"PlayersNames" : "Christian Pulisic \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : -1.21676566,
 		"LatCentroid" : 7.95345644,
-		"PlayersNames" : "Abdul Rahman Baba",
+		"PlayersNames" : "Abdul Rahman Baba \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : -53.09783113,
 		"LatCentroid" : -10.78777702,
-		"PlayersNames" : "Willian Borges da Silva;Robert Kenedy Nunes do Nascimento;Gustavo Lucas Domingues Piazon",
+		"PlayersNames" : "Willian Borges da Silva \n ;Robert Kenedy Nunes do Nascimento \n ;Gustavo Lucas Domingues Piazon \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : -77.31482593,
 		"LatCentroid" : 18.15694878,
-		"PlayersNames" : "Michael Hector",
+		"PlayersNames" : "Michael Hector \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : 10.38578051,
 		"LatCentroid" : 51.10698181,
-		"PlayersNames" : "Antonio Rüdiger",
+		"PlayersNames" : "Antonio Rüdiger \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : 16.40412899,
 		"LatCentroid" : 45.08047631,
-		"PlayersNames" : "Mateo Kovačić",
+		"PlayersNames" : "Mateo Kovačić \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : -65.17980692,
 		"LatCentroid" : -35.3813488,
-		"PlayersNames" : "Wilfredo Daniel Caballero",
+		"PlayersNames" : "Wilfredo Daniel Caballero \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Marco van Ginkel",
+		"PlayersNames" : "Marco van Ginkel \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : 12.07001339,
 		"LatCentroid" : 42.79662641,
-		"PlayersNames" : "Luiz Frello Filho Jorge;Davide Zappacosta;Emerson Palmieri dos Santos",
+		"PlayersNames" : "Luiz Frello Filho Jorge \n ;Davide Zappacosta \n ;Emerson Palmieri dos Santos \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -108,7 +108,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Michy Batshuayi Tunga",
+		"PlayersNames" : "Michy Batshuayi Tunga \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -116,7 +116,7 @@
 		"Team" : "Chelsea ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Ruben Loftus-Cheek;Ross Barkley;Tammy Abraham;Mason Mount;Callum Hudson-Odoi;Reece James;Fikayo Tomori;Jamal Blackman;Jamie Cumming",
+		"PlayersNames" : "Ruben Loftus-Cheek \n ;Ross Barkley \n ;Tammy Abraham \n ;Mason Mount \n ;Callum Hudson-Odoi \n ;Reece James \n ;Fikayo Tomori \n ;Jamal Blackman \n ;Jamie Cumming \n ",
 		"PlayersNr" : 9
 	}
 ]

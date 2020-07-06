@@ -4,7 +4,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "Ryan Fraser",
+		"PlayersNames" : "Ryan Fraser \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : 17.76876733,
 		"LatCentroid" : 44.17450125,
-		"PlayersNames" : "Asmir Begović",
+		"PlayersNames" : "Asmir Begović \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "Diego Rico Salguero",
+		"PlayersNames" : "Diego Rico Salguero \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : -73.08114582,
 		"LatCentroid" : 3.91383431,
-		"PlayersNames" : "Jefferson Andrés Lerma Solís",
+		"PlayersNames" : "Jefferson Andrés Lerma Solís \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : 10.02800992,
 		"LatCentroid" : 55.98125296,
-		"PlayersNames" : "Philip Billing",
+		"PlayersNames" : "Philip Billing \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : 24.97293039,
 		"LatCentroid" : 45.85243127,
-		"PlayersNames" : "Mihai Alexandru Dobre",
+		"PlayersNames" : "Mihai Alexandru Dobre \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : 19.39012835,
 		"LatCentroid" : 52.12759564,
-		"PlayersNames" : "Artur Boruc",
+		"PlayersNames" : "Artur Boruc \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : 8.08943895,
 		"LatCentroid" : 9.59411452,
-		"PlayersNames" : "Nnamdi Ofoborh",
+		"PlayersNames" : "Nnamdi Ofoborh \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Mark Travers",
+		"PlayersNames" : "Mark Travers \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Nathan Aké;Arnaut Danjuma Groeneveld",
+		"PlayersNames" : "Nathan Aké \n ;Arnaut Danjuma Groeneveld \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : -3.766409,
 		"LatCentroid" : 52.33022,
-		"PlayersNames" : "David Brooks;Harry Wilson;Chris Mepham",
+		"PlayersNames" : "David Brooks \n ;Harry Wilson \n ;Chris Mepham \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : 15.34834656,
 		"LatCentroid" : 68.75015572,
-		"PlayersNames" : "Joshua King",
+		"PlayersNames" : "Joshua King \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Bournemouth",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Callum Wilson;Steve Cook;Lewis Cook;Adam Smith;Simon Francis;Andrew Surman;Dan Gosling;Junior Stanislas;Jordon  Ibe;Charlie Daniels;Dominic Solanke;Jack Stacey;Lloyd Kelly;Aaron Ramsdale;Jack Simpson;Kyle Taylor;Matt Butcher;Tyler Cordner",
+		"PlayersNames" : "Callum Wilson \n ;Steve Cook \n ;Lewis Cook \n ;Adam Smith \n ;Simon Francis \n ;Andrew Surman \n ;Dan Gosling \n ;Junior Stanislas \n ;Jordon  Ibe \n ;Charlie Daniels \n ;Dominic Solanke \n ;Jack Stacey \n ;Lloyd Kelly \n ;Aaron Ramsdale \n ;Jack Simpson \n ;Kyle Taylor \n ;Matt Butcher \n ;Tyler Cordner \n ",
 		"PlayersNr" : 18
 	}
 ]

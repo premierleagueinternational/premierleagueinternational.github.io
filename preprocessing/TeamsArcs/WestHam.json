@@ -4,7 +4,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : -53.09783113,
 		"LatCentroid" : -10.78777702,
-		"PlayersNames" : "Felipe  Anderson Pereira Gomes",
+		"PlayersNames" : "Felipe  Anderson Pereira Gomes \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "Robert Snodgrass",
+		"PlayersNames" : "Robert Snodgrass \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Conor Coventry",
+		"PlayersNames" : "Conor Coventry \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "Pablo Fornals Malla;Roberto Jiménez Gago",
+		"PlayersNames" : "Pablo Fornals Malla \n ;Roberto Jiménez Gago \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : -73.08114582,
 		"LatCentroid" : 3.91383431,
-		"PlayersNames" : "Carlos Sánchez",
+		"PlayersNames" : "Carlos Sánchez \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : 8.20867471,
 		"LatCentroid" : 46.79785878,
-		"PlayersNames" : "Albian Ajeti",
+		"PlayersNames" : "Albian Ajeti \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : 19.39012835,
 		"LatCentroid" : 52.12759564,
-		"PlayersNames" : "Łukasz Fabiański",
+		"PlayersNames" : "Łukasz Fabiański \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : 171.48492347,
 		"LatCentroid" : -41.81113557,
-		"PlayersNames" : "Winston  Reid",
+		"PlayersNames" : "Winston  Reid \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : -58.40013703,
 		"LatCentroid" : -23.22823913,
-		"PlayersNames" : "Fabián Balbuena",
+		"PlayersNames" : "Fabián Balbuena \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : -8.50104361,
 		"LatCentroid" : 39.59550671,
-		"PlayersNames" : "Gonçalo Bento Soares Cardoso;Alexandre Costa Silva;Mésaque Geremias Djú",
+		"PlayersNames" : "Gonçalo Bento Soares Cardoso \n ;Alexandre Costa Silva \n ;Mésaque Geremias Djú \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -84,15 +84,15 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : -65.17980692,
 		"LatCentroid" : -35.3813488,
-		"PlayersNames" : "Manuel Lanzini;Pablo Javier Zabaleta Girod",
+		"PlayersNames" : "Manuel Lanzini \n ;Pablo Javier Zabaleta Girod \n ",
 		"PlayersNr" : 2
 	},
 	{
 		"nationality" : "France",
 		"Team" : "West Ham United ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Sébastien Haller;Issa Diop",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Sébastien Haller \n ;Issa Diop \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : 12.07001339,
 		"LatCentroid" : 42.79662641,
-		"PlayersNames" : "Angelo Obinze Ogbonna",
+		"PlayersNames" : "Angelo Obinze Ogbonna \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -108,7 +108,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : -102.52345169,
 		"LatCentroid" : 23.94753724,
-		"PlayersNames" : "Javier Hernández Balcázar",
+		"PlayersNames" : "Javier Hernández Balcázar \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -116,7 +116,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Jack Wilshere;Declan Rice;Michail Antonio;Mark Noble;Aaron Cresswell;Ryan Fredericks;David Edward Martin;Nathan Holland;Joe Powell;Oladapo Afolayan;Daniel Kemp;Ben Johnson",
+		"PlayersNames" : "Jack Wilshere \n ;Declan Rice \n ;Michail Antonio \n ;Mark Noble \n ;Aaron Cresswell \n ;Ryan Fredericks \n ;David Edward Martin \n ;Nathan Holland \n ;Joe Powell \n ;Oladapo Afolayan \n ;Daniel Kemp \n ;Ben Johnson \n ",
 		"PlayersNr" : 12
 	},
 	{
@@ -124,7 +124,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : 15.21965762,
 		"LatCentroid" : -0.83787463,
-		"PlayersNames" : "Arthur Masuaku",
+		"PlayersNames" : "Arthur Masuaku \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -132,7 +132,7 @@
 		"Team" : "West Ham United ",
 		"LongCentroid" : 31.38326469,
 		"LatCentroid" : 48.99656673,
-		"PlayersNames" : "Andriy Yarmolenko",
+		"PlayersNames" : "Andriy Yarmolenko \n ",
 		"PlayersNr" : 1
 	}
 ]

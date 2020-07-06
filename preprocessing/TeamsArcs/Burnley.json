@@ -4,7 +4,7 @@
 		"Team" : "Burnley ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "James Tarkowski;Nick Pope;Ashley Barnes;Ben Mee;Joe Hart;Danny Drinkwater;Ashley Westwood;Charlie Taylor;Jack Cork;Jay Rodriguez;Matthew Lowton;Dwight McNeil;Ben Gibson;Aaron  Lennon;Adam Legzdins;Josh Benson;Adam Phillips;Ali Koiki;Robert Harker;Ryan Cooney;Anthony Driscoll-Glennon;George McMahon",
+		"PlayersNames" : "James Tarkowski \n ;Nick Pope \n ;Ashley Barnes \n ;Ben Mee \n ;Joe Hart \n ;Danny Drinkwater \n ;Ashley Westwood \n ;Charlie Taylor \n ;Jack Cork \n ;Jay Rodriguez \n ;Matthew Lowton \n ;Dwight McNeil \n ;Ben Gibson \n ;Aaron  Lennon \n ;Adam Legzdins \n ;Josh Benson \n ;Adam Phillips \n ;Ali Koiki \n ;Robert Harker \n ;Ryan Cooney \n ;Anthony Driscoll-Glennon \n ;George McMahon \n ",
 		"PlayersNr" : 22
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Burnley ",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Erik Pieters",
+		"PlayersNames" : "Erik Pieters \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Burnley ",
 		"LongCentroid" : -18.57396167,
 		"LatCentroid" : 64.99575386,
-		"PlayersNames" : "Johann  Berg Guðmunds­son",
+		"PlayersNames" : "Johann  Berg Guðmunds­son \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Burnley ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Steven Defour",
+		"PlayersNames" : "Steven Defour \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Burnley ",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "Phil Bardsley",
+		"PlayersNames" : "Phil Bardsley \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Burnley ",
 		"LongCentroid" : 171.48492347,
 		"LatCentroid" : -41.81113557,
-		"PlayersNames" : "Chris Wood",
+		"PlayersNames" : "Chris Wood \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Burnley ",
 		"LongCentroid" : 15.31240163,
 		"LatCentroid" : 49.73341233,
-		"PlayersNames" : "Matěj Vydra",
+		"PlayersNames" : "Matěj Vydra \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Burnley ",
 		"LongCentroid" : -6.693145,
 		"LatCentroid" : 54.607577,
-		"PlayersNames" : "Bailey Peacock-Farrell",
+		"PlayersNames" : "Bailey Peacock-Farrell \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "Burnley ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Robbie Brady;Jeff Hendrick;Kevin Long;Jimmy Dunne",
+		"PlayersNames" : "Robbie Brady \n ;Jeff Hendrick \n ;Kevin Long \n ;Jimmy Dunne \n ",
 		"PlayersNr" : 4
 	}
 ]

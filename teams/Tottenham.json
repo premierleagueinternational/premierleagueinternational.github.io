@@ -4,7 +4,7 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Harry Kane;Bamidele Alli;Harry Winks;Danny Rose;Eric Dier;Ryan Sessegnon;Kyle Walker-Peters;Marcus Edwards;Oliver Skipp;Japhet Tanganga;George Marsh;Alfie Whiteman;Jamie Bowden",
+		"PlayersNames" : "Harry Kane \n ;Bamidele Alli \n ;Harry Winks \n ;Danny Rose \n ;Eric Dier \n ;Ryan Sessegnon \n ;Kyle Walker-Peters \n ;Marcus Edwards \n ;Oliver Skipp \n ;Japhet Tanganga \n ;George Marsh \n ;Alfie Whiteman \n ;Jamie Bowden \n ",
 		"PlayersNr" : 13
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : -5.5692157,
 		"LatCentroid" : 7.6284262,
-		"PlayersNames" : "Serge Aurier",
+		"PlayersNames" : "Serge Aurier \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : 127.83916086,
 		"LatCentroid" : 36.38523983,
-		"PlayersNames" : "손흥민 孙兴慜",
+		"PlayersNames" : "손흥민 孙兴慜 \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : -73.08114582,
 		"LatCentroid" : 3.91383431,
-		"PlayersNames" : "Davinson Sánchez",
+		"PlayersNames" : "Davinson Sánchez \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : 10.02800992,
 		"LatCentroid" : 55.98125296,
-		"PlayersNames" : "Christian  Dannemann Eriksen",
+		"PlayersNames" : "Christian  Dannemann Eriksen \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : 33.0060022,
 		"LatCentroid" : 34.91667211,
-		"PlayersNames" : "Jack Roles;Anthony Georgiou",
+		"PlayersNames" : "Jack Roles \n ;Anthony Georgiou \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : -53.09783113,
 		"LatCentroid" : -10.78777702,
-		"PlayersNames" : "Lucas Rodrigues M. Silva",
+		"PlayersNames" : "Lucas Rodrigues M. Silva \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : 37.79593973,
 		"LatCentroid" : 0.59988022,
-		"PlayersNames" : "Victor Wanyama",
+		"PlayersNames" : "Victor Wanyama \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : -65.17980692,
 		"LatCentroid" : -35.3813488,
-		"PlayersNames" : "Giovani Lo Celso;Erik Lamela;Paulo Dino Gazzaniga;Juan Marcos Foyth",
+		"PlayersNames" : "Giovani Lo Celso \n ;Erik Lamela \n ;Paulo Dino Gazzaniga \n ;Juan Marcos Foyth \n ",
 		"PlayersNr" : 4
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : -3.766409,
 		"LatCentroid" : 52.33022,
-		"PlayersNames" : "Ben Davies",
+		"PlayersNames" : "Ben Davies \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,15 +84,15 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Jan Vertonghen;Toby Alderweireld",
+		"PlayersNames" : "Jan Vertonghen \n ;Toby Alderweireld \n ",
 		"PlayersNr" : 2
 	},
 	{
 		"nationality" : "France",
 		"Team" : "Tottenham Hotspur ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Hugo Lloris;Tanguy NDombèlé Alvaro;Moussa Sissoko;Georges-Kévin Nkoudou",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Hugo Lloris \n ;Tanguy NDombèlé Alvaro \n ;Moussa Sissoko \n ;Georges-Kévin Nkoudou \n ",
 		"PlayersNr" : 4
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Tottenham Hotspur ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Troy Parrott",
+		"PlayersNames" : "Troy Parrott \n ",
 		"PlayersNr" : 1
 	}
 ]

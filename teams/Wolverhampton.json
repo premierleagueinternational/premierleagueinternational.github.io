@@ -4,7 +4,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : -8.50104361,
 		"LatCentroid" : 39.59550671,
-		"PlayersNames" : "João Filipe Iria Santos Moutinho;Rui Pedro dos Santos Patrício;Rúben Diogo da Silva Neves;Diogo José Teixeira da Silva;Rúben Gonçalo Silva Nascimento Vinagre;Roderick J. Gonçalves Miranda;Pedro Lomba Neto;Bruno André Cavaco Jordão",
+		"PlayersNames" : "João Filipe Iria Santos Moutinho \n ;Rui Pedro dos Santos Patrício \n ;Rúben Diogo da Silva Neves \n ;Diogo José Teixeira da Silva \n ;Rúben Gonçalo Silva Nascimento Vinagre \n ;Roderick J. Gonçalves Miranda \n ;Pedro Lomba Neto \n ;Bruno André Cavaco Jordão \n ",
 		"PlayersNr" : 8
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "Jonathan Castro Otto;Jesús Vallejo Lázaro;Adama Traoré Diarra",
+		"PlayersNames" : "Jonathan Castro Otto \n ;Jesús Vallejo Lázaro \n ;Adama Traoré Diarra \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : 10.02800992,
 		"LatCentroid" : 55.98125296,
-		"PlayersNames" : "Oskar Buur Rasmussen",
+		"PlayersNames" : "Oskar Buur Rasmussen \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : -1.21676566,
 		"LatCentroid" : 7.95345644,
-		"PlayersNames" : "Philemon Ofosu-Ayeh",
+		"PlayersNames" : "Philemon Ofosu-Ayeh \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : -53.09783113,
 		"LatCentroid" : -10.78777702,
-		"PlayersNames" : "Leonardo B. Lohner Maia",
+		"PlayersNames" : "Leonardo B. Lohner Maia \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : 10.38578051,
 		"LatCentroid" : 51.10698181,
-		"PlayersNames" : "Meritan Shabani",
+		"PlayersNames" : "Meritan Shabani \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,15 +52,15 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : -8.45615795,
 		"LatCentroid" : 29.83762955,
-		"PlayersNames" : "Romain Saïss",
+		"PlayersNames" : "Romain Saïss \n ",
 		"PlayersNr" : 1
 	},
 	{
 		"nationality" : "France",
 		"Team" : "Wolverhampton Wanderers ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Willy Boly",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Willy Boly \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Matt Doherty",
+		"PlayersNames" : "Matt Doherty \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Leander Dendoncker",
+		"PlayersNames" : "Leander Dendoncker \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : 12.07001339,
 		"LatCentroid" : 42.79662641,
-		"PlayersNames" : "Patrick Cutrone",
+		"PlayersNames" : "Patrick Cutrone \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : -102.52345169,
 		"LatCentroid" : 23.94753724,
-		"PlayersNames" : "Raúl Alonso Jiménez Rodríguez",
+		"PlayersNames" : "Raúl Alonso Jiménez Rodríguez \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Conor  Coady;Ryan Bennett;Morgan Gibbs-White;John Ruddy;Jordan Graham;Harry Burgoyne;Bernard Patrick Ashley-Seal;Connor Johnson;Max Kilman;Dion Sanderson;Taylor Perry",
+		"PlayersNames" : "Conor  Coady \n ;Ryan Bennett \n ;Morgan Gibbs-White \n ;John Ruddy \n ;Jordan Graham \n ;Harry Burgoyne \n ;Bernard Patrick Ashley-Seal \n ;Connor Johnson \n ;Max Kilman \n ;Dion Sanderson \n ;Taylor Perry \n ",
 		"PlayersNr" : 11
 	},
 	{
@@ -108,7 +108,7 @@
 		"Team" : "Wolverhampton Wanderers ",
 		"LongCentroid" : 15.34834656,
 		"LatCentroid" : 68.75015572,
-		"PlayersNames" : "John Kitolano",
+		"PlayersNames" : "John Kitolano \n ",
 		"PlayersNr" : 1
 	}
 ]

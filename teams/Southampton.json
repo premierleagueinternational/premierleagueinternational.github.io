@@ -4,7 +4,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "James  Ward-Prowse;Ryan Bertrand;Nathan Redmond;Angus Gunn;Alex McCarthy;Danny Ings;Che Adams;Jack Stephens;Fraser Forster;Jake Hesketh;Sam McQueen;Callum Slattery;Harry Lewis;Kayne Ramsay;Marcus Barnes;Jake Vokins",
+		"PlayersNames" : "James  Ward-Prowse \n ;Ryan Bertrand \n ;Nathan Redmond \n ;Angus Gunn \n ;Alex McCarthy \n ;Danny Ings \n ;Che Adams \n ;Jack Stephens \n ;Fraser Forster \n ;Jake Hesketh \n ;Sam McQueen \n ;Callum Slattery \n ;Harry Lewis \n ;Kayne Ramsay \n ;Marcus Barnes \n ;Jake Vokins \n ",
 		"PlayersNr" : 16
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "Stuart Armstrong",
+		"PlayersNames" : "Stuart Armstrong \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : -3.54269065,
 		"LatCentroid" : 17.34581581,
-		"PlayersNames" : "Moussa Djenepo",
+		"PlayersNames" : "Moussa Djenepo \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "Oriol Romeu Vidal",
+		"PlayersNames" : "Oriol Romeu Vidal \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : 10.02800992,
 		"LatCentroid" : 55.98125296,
-		"PlayersNames" : "Jannik Vestergaard;Pierre-Emile Højbjerg",
+		"PlayersNames" : "Jannik Vestergaard \n ;Pierre-Emile Højbjerg \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : 19.39012835,
 		"LatCentroid" : 52.12759564,
-		"PlayersNames" : "Jan Bednarek",
+		"PlayersNames" : "Jan Bednarek \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : 138.03089558,
 		"LatCentroid" : 37.59230135,
-		"PlayersNames" : "吉田 麻也",
+		"PlayersNames" : "吉田 麻也 \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : 14.1264761,
 		"LatCentroid" : 47.58549439,
-		"PlayersNames" : "Kevin Danso",
+		"PlayersNames" : "Kevin Danso \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : -8.50104361,
 		"LatCentroid" : 39.59550671,
-		"PlayersNames" : "Cédric Ricardo Alves Soares",
+		"PlayersNames" : "Cédric Ricardo Alves Soares \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : 11.7886287,
 		"LatCentroid" : -0.58660025,
-		"PlayersNames" : "Mario Lemina",
+		"PlayersNames" : "Mario Lemina \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : -8.45615795,
 		"LatCentroid" : 29.83762955,
-		"PlayersNames" : "Sofiane Boufal",
+		"PlayersNames" : "Sofiane Boufal \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : -65.17980692,
 		"LatCentroid" : -35.3813488,
-		"PlayersNames" : "Guido Carrillo",
+		"PlayersNames" : "Guido Carrillo \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Wesley Hoedt",
+		"PlayersNames" : "Wesley Hoedt \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -108,15 +108,15 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Shane  Long;Michael Obafemi",
+		"PlayersNames" : "Shane  Long \n ;Michael Obafemi \n ",
 		"PlayersNr" : 2
 	},
 	{
 		"nationality" : "France",
 		"Team" : "Southampton ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Yan Valery",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Yan Valery \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -124,7 +124,7 @@
 		"Team" : "Southampton ",
 		"LongCentroid" : 15.34834656,
 		"LatCentroid" : 68.75015572,
-		"PlayersNames" : "Mohamed Elyounoussi",
+		"PlayersNames" : "Mohamed Elyounoussi \n ",
 		"PlayersNr" : 1
 	}
 ]

@@ -4,7 +4,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : 134.49100008,
 		"LatCentroid" : -25.73288704,
-		"PlayersNames" : "Mathew Ryan;Aaron Mooy",
+		"PlayersNames" : "Mathew Ryan \n ;Aaron Mooy \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : -3.54269065,
 		"LatCentroid" : 17.34581581,
-		"PlayersNames" : "Yves Bissouma",
+		"PlayersNames" : "Yves Bissouma \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : -3.64755047,
 		"LatCentroid" : 40.24448698,
-		"PlayersNames" : "Martín Montoya Torralbo",
+		"PlayersNames" : "Martín Montoya Torralbo \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : -73.08114582,
 		"LatCentroid" : 3.91383431,
-		"PlayersNames" : "José Heriberto Izquierdo Mena",
+		"PlayersNames" : "José Heriberto Izquierdo Mena \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : 24.97293039,
 		"LatCentroid" : 45.85243127,
-		"PlayersNames" : "Florin Andone;Tudor Băluță",
+		"PlayersNames" : "Florin Andone \n ;Tudor Băluță \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : 10.02800992,
 		"LatCentroid" : 55.98125296,
-		"PlayersNames" : "Anders Dreyer",
+		"PlayersNames" : "Anders Dreyer \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : 35.00444693,
 		"LatCentroid" : 31.46110101,
-		"PlayersNames" : "Tomer Hemed",
+		"PlayersNames" : "Tomer Hemed \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : 54.27407004,
 		"LatCentroid" : 32.57503292,
-		"PlayersNames" : "Alireza Jahanbakhsh",
+		"PlayersNames" : "Alireza Jahanbakhsh \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : -53.09783113,
 		"LatCentroid" : -10.78777702,
-		"PlayersNames" : "Bernardo Fernandes da Silva Junior",
+		"PlayersNames" : "Bernardo Fernandes da Silva Junior \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : 10.38578051,
 		"LatCentroid" : 51.10698181,
-		"PlayersNames" : "Pascal Groß",
+		"PlayersNames" : "Pascal Groß \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : 8.08943895,
 		"LatCentroid" : 9.59411452,
-		"PlayersNames" : "Leon-Aderemi Balogun",
+		"PlayersNames" : "Leon-Aderemi Balogun \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Shane Duffy;Aaron Anthony Connolly",
+		"PlayersNames" : "Shane Duffy \n ;Aaron Anthony Connolly \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Davy Pröpper;Jürgen Locadia;Soufyan Ahannach",
+		"PlayersNames" : "Davy Pröpper \n ;Jürgen Locadia \n ;Soufyan Ahannach \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -108,15 +108,15 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Leandro Trossard",
+		"PlayersNames" : "Leandro Trossard \n ",
 		"PlayersNr" : 1
 	},
 	{
 		"nationality" : "France",
 		"Team" : "Brighton & Hove Albion ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Neal Maupay",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Neal Maupay \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -124,7 +124,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Lewis Dunk;Glenn Murray;Dale Stephens;Solly March;Adam Webster;Dan Burn;Jason Steele;David Button;James Tilley;Max Harrison Sanders;Steven Alzate",
+		"PlayersNames" : "Lewis Dunk \n ;Glenn Murray \n ;Dale Stephens \n ;Solly March \n ;Adam Webster \n ;Dan Burn \n ;Jason Steele \n ;David Button \n ;James Tilley \n ;Max Harrison Sanders \n ;Steven Alzate \n ",
 		"PlayersNr" : 11
 	},
 	{
@@ -132,7 +132,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : 12.73964156,
 		"LatCentroid" : 5.69109849,
-		"PlayersNames" : "Gaëtan Bong Songo",
+		"PlayersNames" : "Gaëtan Bong Songo \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -140,7 +140,7 @@
 		"Team" : "Brighton & Hove Albion ",
 		"LongCentroid" : 12.07001339,
 		"LatCentroid" : 42.79662641,
-		"PlayersNames" : "Ezequiel Schelotto",
+		"PlayersNames" : "Ezequiel Schelotto \n ",
 		"PlayersNr" : 1
 	}
 ]

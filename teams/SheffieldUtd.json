@@ -4,7 +4,7 @@
 		"Team" : "Sheffield United",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Ravel Morrison;Phil Jagielka;Dean Henderson;Jack O'Connell;Billy Sharp;Luke Anthony Freeman;Chris Basham;Ben Osborn;Leon Clarke;George Baldock;Richard Stearman;Jake Wright Sr.;John Lundstram;Simon Moore;Ricky Holmes;Kean Bryan;Ben Heneghan;Keenan Ferguson;Marcus Dewhurst;Jake Young",
+		"PlayersNames" : "Ravel Morrison \n ;Phil Jagielka \n ;Dean Henderson \n ;Jack O'Connell \n ;Billy Sharp \n ;Luke Anthony Freeman \n ;Chris Basham \n ;Ben Osborn \n ;Leon Clarke \n ;George Baldock \n ;Richard Stearman \n ;Jake Wright Sr. \n ;John Lundstram \n ;Simon Moore \n ;Ricky Holmes \n ;Kean Bryan \n ;Ben Heneghan \n ;Keenan Ferguson \n ;Marcus Dewhurst \n ;Jake Young \n ",
 		"PlayersNr" : 20
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Sheffield United",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "Oliver McBurnie;John Fleck",
+		"PlayersNames" : "Oliver McBurnie \n ;John Fleck \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Sheffield United",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Michael Verrips",
+		"PlayersNames" : "Michael Verrips \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Sheffield United",
 		"LongCentroid" : -3.766409,
 		"LatCentroid" : 52.33022,
-		"PlayersNames" : "Kieron Freeman",
+		"PlayersNames" : "Kieron Freeman \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Sheffield United",
 		"LongCentroid" : -6.693145,
 		"LatCentroid" : 54.607577,
-		"PlayersNames" : "Oliver Norwood",
+		"PlayersNames" : "Oliver Norwood \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -44,15 +44,15 @@
 		"Team" : "Sheffield United",
 		"LongCentroid" : 17.76876733,
 		"LatCentroid" : 44.17450125,
-		"PlayersNames" : "Muhamed Bešić",
+		"PlayersNames" : "Muhamed Bešić \n ",
 		"PlayersNr" : 1
 	},
 	{
 		"nationality" : "France",
 		"Team" : "Sheffield United",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Lys Mousset",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Lys Mousset \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Sheffield United",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "John Egan;Enda Stevens;Callum Robinson;David McGoldrick;Samir  Carruthers;Stephen Mallon",
+		"PlayersNames" : "John Egan \n ;Enda Stevens \n ;Callum Robinson \n ;David McGoldrick \n ;Samir  Carruthers \n ;Stephen Mallon \n ",
 		"PlayersNr" : 6
 	}
 ]

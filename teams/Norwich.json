@@ -4,7 +4,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : 10.38578051,
 		"LatCentroid" : 51.10698181,
-		"PlayersNames" : "Ralf Fährmann;Moritz Leitner;Tom Trybull;Onel Lázaro Hernández Mayea;Marco Stiepermann;Christoph Zimmermann;Philip Heise;Dennis Srbeny",
+		"PlayersNames" : "Ralf Fährmann \n ;Moritz Leitner \n ;Tom Trybull \n ;Onel Lázaro Hernández Mayea \n ;Marco Stiepermann \n ;Christoph Zimmermann \n ;Philip Heise \n ;Dennis Srbeny \n ",
 		"PlayersNr" : 8
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : 17.76876733,
 		"LatCentroid" : 44.17450125,
-		"PlayersNames" : "Mario Vrančić",
+		"PlayersNames" : "Mario Vrančić \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "Kenny McLean;Grant Hanley;Aidan Fitzpatrick",
+		"PlayersNames" : "Kenny McLean \n ;Grant Hanley \n ;Aidan Fitzpatrick \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Rob Nizet",
+		"PlayersNames" : "Rob Nizet \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : -6.693145,
 		"LatCentroid" : 54.607577,
-		"PlayersNames" : "Jamal Lewis;Michael McGovern",
+		"PlayersNames" : "Jamal Lewis \n ;Michael McGovern \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : 8.20867471,
 		"LatCentroid" : 46.79785878,
-		"PlayersNames" : "Josip Drmić;Timm Klose",
+		"PlayersNames" : "Josip Drmić \n ;Timm Klose \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : -8.45615795,
 		"LatCentroid" : 29.83762955,
-		"PlayersNames" : "Gassan Ahadme",
+		"PlayersNames" : "Gassan Ahadme \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : -65.17980692,
 		"LatCentroid" : -35.3813488,
-		"PlayersNames" : "Emiliano Buendía",
+		"PlayersNames" : "Emiliano Buendía \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,15 +68,15 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Tim Krul",
+		"PlayersNames" : "Tim Krul \n ",
 		"PlayersNr" : 1
 	},
 	{
 		"nationality" : "France",
 		"Team" : "Norwich City ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Ibrahim Amadou",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Ibrahim Amadou \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Adam Idah",
+		"PlayersNames" : "Adam Idah \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : 26.2746656,
 		"LatCentroid" : 64.49884603,
-		"PlayersNames" : "Teemu Pukki",
+		"PlayersNames" : "Teemu Pukki \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Patrick Roberts;Maximillian James Aarons;Sam Byram;Ben Godfrey;Todd Cantwell;Daniel Adshead;Josh Martin;Timi Odusina;Akin Famewo",
+		"PlayersNames" : "Patrick Roberts \n ;Maximillian James Aarons \n ;Sam Byram \n ;Ben Godfrey \n ;Todd Cantwell \n ;Daniel Adshead \n ;Josh Martin \n ;Timi Odusina \n ;Akin Famewo \n ",
 		"PlayersNr" : 9
 	},
 	{
@@ -108,7 +108,7 @@
 		"Team" : "Norwich City ",
 		"LongCentroid" : 15.34834656,
 		"LatCentroid" : 68.75015572,
-		"PlayersNames" : "Alexander Banor Tettey",
+		"PlayersNames" : "Alexander Banor Tettey \n ",
 		"PlayersNr" : 1
 	}
 ]

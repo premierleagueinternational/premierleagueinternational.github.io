@@ -2,9 +2,9 @@
 	{
 		"nationality" : "France",
 		"Team" : "Everton ",
-		"LongCentroid" : -2.76172945,
-		"LatCentroid" : 42.17344011,
-		"PlayersNames" : "Lucas Digne;Djibril Sidibé;Morgan Schneiderlin",
+		"LongCentroid" : 2.76172944519,
+		"LatCentroid" : 46.76172944519,
+		"PlayersNames" : "Lucas Digne \n ;Djibril Sidibé \n ;Morgan Schneiderlin \n ",
 		"PlayersNr" : 3
 	},
 	{
@@ -12,7 +12,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : -5.5692157,
 		"LatCentroid" : 7.6284262,
-		"PlayersNames" : "Jean-Philippe Gbamin",
+		"PlayersNames" : "Jean-Philippe Gbamin \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -20,7 +20,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : -14.4734924,
 		"LatCentroid" : 14.36624173,
-		"PlayersNames" : "El-Hadji Baye Oumar Niasse",
+		"PlayersNames" : "El-Hadji Baye Oumar Niasse \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -28,7 +28,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : -68.97119369,
 		"LatCentroid" : 12.19551675,
-		"PlayersNames" : "Rhu-endly Martina",
+		"PlayersNames" : "Rhu-endly Martina \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -36,7 +36,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : -4.183963,
 		"LatCentroid" : 56.816738,
-		"PlayersNames" : "Fraser Hornby",
+		"PlayersNames" : "Fraser Hornby \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -44,7 +44,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : -73.08114582,
 		"LatCentroid" : 3.91383431,
-		"PlayersNames" : "Yerry Mina",
+		"PlayersNames" : "Yerry Mina \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -52,7 +52,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : 35.16895346,
 		"LatCentroid" : 39.0616029,
-		"PlayersNames" : "Cenk Tosun",
+		"PlayersNames" : "Cenk Tosun \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -60,7 +60,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : 10.02800992,
 		"LatCentroid" : 55.98125296,
-		"PlayersNames" : "Jonas Lössl",
+		"PlayersNames" : "Jonas Lössl \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -68,7 +68,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : -53.09783113,
 		"LatCentroid" : -10.78777702,
-		"PlayersNames" : "Bernard  Anício Caldeira Duarte;Richarlison de Andrade",
+		"PlayersNames" : "Bernard  Anício Caldeira Duarte \n ;Richarlison de Andrade \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -76,7 +76,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : -8.50104361,
 		"LatCentroid" : 39.59550671,
-		"PlayersNames" : "André Filipe Tavares Gomes",
+		"PlayersNames" : "André Filipe Tavares Gomes \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -84,7 +84,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : 8.08943895,
 		"LatCentroid" : 9.59411452,
-		"PlayersNames" : "Alex Iwobi",
+		"PlayersNames" : "Alex Iwobi \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -92,7 +92,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : -8.13793569,
 		"LatCentroid" : 53.1754487,
-		"PlayersNames" : "Séamus Coleman",
+		"PlayersNames" : "Séamus Coleman \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -100,7 +100,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : 5.28144793,
 		"LatCentroid" : 52.1007899,
-		"PlayersNames" : "Maarten Stekelenburg",
+		"PlayersNames" : "Maarten Stekelenburg \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -108,7 +108,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : 4.64065114,
 		"LatCentroid" : 50.63981576,
-		"PlayersNames" : "Kevin Mirallas",
+		"PlayersNames" : "Kevin Mirallas \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -116,7 +116,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : 12.07001339,
 		"LatCentroid" : 42.79662641,
-		"PlayersNames" : "Moise Kean",
+		"PlayersNames" : "Moise Kean \n ",
 		"PlayersNr" : 1
 	},
 	{
@@ -124,7 +124,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : -1.464854,
 		"LatCentroid" : 52.561928,
-		"PlayersNames" : "Jordan Pickford;Michael Keane;Dominic Calvert-Lewin;Theo  Walcott;Fabian Delph;Tom Davies;Mason Holgate;Leighton Baines;Callum Connolly;Ellis Simms;Morgan Feeney;Manasse Mampala",
+		"PlayersNames" : "Jordan Pickford \n ;Michael Keane \n ;Dominic Calvert-Lewin \n ;Theo  Walcott \n ;Fabian Delph \n ;Tom Davies \n ;Mason Holgate \n ;Leighton Baines \n ;Callum Connolly \n ;Ellis Simms \n ;Morgan Feeney \n ;Manasse Mampala \n ",
 		"PlayersNr" : 12
 	},
 	{
@@ -132,7 +132,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : 15.21965762,
 		"LatCentroid" : -0.83787463,
-		"PlayersNames" : "Yannick Bolasie Yala;Beni Baningime",
+		"PlayersNames" : "Yannick Bolasie Yala \n ;Beni Baningime \n ",
 		"PlayersNr" : 2
 	},
 	{
@@ -140,7 +140,7 @@
 		"Team" : "Everton ",
 		"LongCentroid" : -18.57396167,
 		"LatCentroid" : 64.99575386,
-		"PlayersNames" : "Gylfi Þór Sigurðsson",
+		"PlayersNames" : "Gylfi Þór Sigurðsson \n ",
 		"PlayersNr" : 1
 	}
 ]

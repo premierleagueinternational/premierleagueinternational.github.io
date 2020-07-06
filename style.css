@@ -5,6 +5,7 @@ body {
 #container {
     width: 100vw; 
     height: 100vh;
+    color: rgb(181, 255, 233);
 }
 
 
@@ -28,14 +29,14 @@ cursor: pointer;
 
 .allButton {
   position: absolute;
-  bottom: 40px;
-  left: 50px;
+  bottom: 30px;
+  left: 820px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/PremierLeague.png");
-  background-size: 60px 60px;
-  height: 62px;  
-  width: 62px;
+  background-size: 80px 80px;
+  height: 82px;  
+  width: 82px;
   color: #00000000;
   font-size: 1em;
   text-decoration: none;
@@ -45,61 +46,18 @@ cursor: pointer;
 }
 
 .allButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 /*Toggleable club buttons*/
 
-.bournemouthButton {
-  position: absolute;
-  bottom: 120px;
-  left: 10px;
-  z-index: 1001;
-  background-color:rgb(255, 253, 253);
-  background-image: url("/badges/bournemouth.png");
-  background-size: 60px 60px;
-  height: 62px;  
-  width: 62px;
-  color: #00000000;
-  font-size: 1em;
-  text-decoration: none;
-  text-align: center;
-  border: 0.1px solid rgb(0, 0, 0);
-  cursor: pointer;
-}
-
-.bournemouthButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
-}
-
-.AstonVillaButton {
-  position: absolute;
-  bottom: 120px;
-  left: 70px;
-  z-index: 1001;
-  background-color:rgb(255, 253, 253);
-  background-image: url("/badges/AstonVilla.svg");
-  background-size: 60px 60px;
-  height: 62px;  
-  width: 62px;
-  color: #00000000;
-  font-size: 1em;
-  text-decoration: none;
-  text-align: center;
-  border: 0.1px solid rgb(0, 0, 0);
-  cursor: pointer;
-}
-
-.AstonVillaButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
-}
-
 .ArsenalButton {
   position: absolute;
   bottom: 120px;
-  left: 130px;
+  
+  left: 250px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Arsenal.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -113,16 +71,60 @@ cursor: pointer;
 }
 
 .ArsenalButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
+}
+
+.AstonVillaButton {
+  position: absolute;
+  bottom: 120px;
+  left: 310px;
+  z-index: 1001;
+  background-color:rgba(81, 82, 82, 1);
+  background-image: url("/badges/AstonVilla.svg");
+  background-size: 60px 60px;
+  height: 62px;  
+  width: 62px;
+  color: #00000000;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  border: 0.1px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.AstonVillaButton:hover {
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
+}
+
+.bournemouthButton {
+  position: absolute;
+  bottom: 120px;
+  left: 370px;
+  z-index: 1001;
+  background-color:rgba(81, 82, 82, 1);
+  background-image: url("/badges/bournemouth.png");
+  background-size: 60px 60px;
+  height: 62px;  
+  width: 62px;
+  color: #00000000;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  border: 0.1px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.bournemouthButton:hover {
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 
 .BrightonButton {
   position: absolute;
   bottom: 120px;
-  left: 190px;
+  left: 430px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Brighton.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -136,16 +138,16 @@ cursor: pointer;
 }
 
 .BrightonButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 
 .BurnleyButton {
   position: absolute;
   bottom: 120px;
-  left: 250px;
+  left: 490px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Burnley.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -159,15 +161,15 @@ cursor: pointer;
 }
 
 .BurnleyButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 .ChelseaButton {
   position: absolute;
   bottom: 120px;
-  left: 310px;
+  left: 550px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Chelsea.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -181,16 +183,16 @@ cursor: pointer;
 }
 
 .ChelseaButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 
 .CrystalPalaceButton {
   position: absolute;
   bottom: 120px;
-  left: 370px;
+  left: 610px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/CrystalPalace.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -204,16 +206,16 @@ cursor: pointer;
 }
 
 .CrystalPalaceButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 
 .EvertonButton {
   position: absolute;
   bottom: 120px;
-  left: 430px;
+  left: 670px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Everton.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -227,15 +229,15 @@ cursor: pointer;
 }
 
 .EvertonButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 .LeicesterButton {
   position: absolute;
   bottom: 120px;
-  left: 490px;
+  left: 730px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/LeicesterCity.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -249,15 +251,15 @@ cursor: pointer;
 }
 
 .LeicesterButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 .LiverpoolButton {
   position: absolute;
   bottom: 120px;
-  left: 550px;
+  left: 790px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Liverpool.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -271,16 +273,16 @@ cursor: pointer;
 }
 
 .LiverpoolButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 
 .ManCityButton {
   position: absolute;
   bottom: 120px;
-  left: 610px;
+  left: 850px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/ManchesterCity.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -294,16 +296,16 @@ cursor: pointer;
 }
 
 .ManCityButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 
 .ManUnitedButton {
   position: absolute;
   bottom: 120px;
-  left: 670px;
+  left: 910px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/ManchesterUnited.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -317,15 +319,15 @@ cursor: pointer;
 }
 
 .ManUnitedButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 .NewcastleButton {
   position: absolute;
   bottom: 120px;
-  left: 730px;
+  left: 970px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Newcastle.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -339,16 +341,16 @@ cursor: pointer;
 }
 
 .NewcastleButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 
 .NorwichButton {
   position: absolute;
   bottom: 120px;
-  left: 790px;
+  left: 1030px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Norwich.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -362,15 +364,15 @@ cursor: pointer;
 }
 
 .NorwichButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 .SheffieldUtdButton {
   position: absolute;
   bottom: 120px;
-  left: 850px;
+  left: 1090px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/SheffieldUnited.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -384,16 +386,16 @@ cursor: pointer;
 }
 
 .SheffieldUtdButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 
 .SouthamptonButton {
   position: absolute;
   bottom: 120px;
-  left: 910px;
+  left: 1150px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Southampton.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -407,15 +409,15 @@ cursor: pointer;
 }
 
 .SouthamptonButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 .TottenhamButton {
   position: absolute;
   bottom: 120px;
-  left: 970px;
+  left: 1210px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Tottenham.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -429,16 +431,16 @@ cursor: pointer;
 }
 
 .TottenhamButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 
 .WatfordButton {
   position: absolute;
   bottom: 120px;
-  left: 1030px;
+  left: 1270px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Watford.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -452,16 +454,16 @@ cursor: pointer;
 }
 
 .WatfordButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 
 .WestHamButton {
   position: absolute;
   bottom: 120px;
-  left: 1090px;
+  left: 1330px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/WestHam.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -475,16 +477,16 @@ cursor: pointer;
 }
 
 .WestHamButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
 
 .WolverhamptonButton {
   position: absolute;
   bottom: 120px;
-  left: 1150px;
+  left: 1390px;
   z-index: 1001;
-  background-color:rgb(255, 253, 253);
+  background-color:rgba(81, 82, 82, 1);
   background-image: url("/badges/Wolverhampton.svg");
   background-size: 60px 60px;
   height: 62px;  
@@ -498,19 +500,47 @@ cursor: pointer;
 }
 
 .WolverhamptonButton:hover {
-  box-shadow: 4px 4px 4px 4px black;
+  box-shadow: 4px 4px 4px 4px rgb(181, 255, 233);
 }
 
+ /* Main windows */
+ #rightControl {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  color: rgb(181, 255, 233);
+  top: 10;
+  right: 10;
+  /*background-color:rgba(233, 0, 82, 0.8);    premeir league official colour*/
+  /*background-color:rgba(255, 255, 255, 0.8);*/
+  background-color:rgba(81, 82, 82, 0.9);
+  z-index: 1000;
+  padding: 0px;
+}
 
+.rightText{
+  display: inline-block;
+  color:  rgb(181, 255, 233);
+  text-align: start;
+  top: 15;
+  right: 5;
+  left: 5;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  position: absolute;
+  font-family: sans-serif;
+}
 
 #control {
     width: 300px;
     height: 70%;
     position: absolute;
-    top: 50;
-    left: 50;
+    top: 10;
+    left: 10;
     /*background-color:rgba(233, 0, 82, 0.8);    premeir league official colour*/
-    background-color:rgba(255, 255, 255, 0.8);
+    background-color:rgba(81, 82, 82, 1);
+    color:  rgb(181, 255, 233);
     z-index: 1000;
     padding: 0px;
  }
@@ -522,10 +552,11 @@ cursor: pointer;
     width: 100%;
     height: 100px;
     margin: 25px 50px 75px 100px;
+    color: rgb(181, 255, 233);
   }
   
   #titel-image neg {
-    color:  rgb(255, 192, 0);
+    color:  rgb(181, 255, 233);
     font-weight: bold;
     letter-spacing: 1px;
     font-size: larger;
@@ -538,13 +569,14 @@ cursor: pointer;
   #titel-image img {
     width: 100px;
     height: 100px;
+    color: rgb(181, 255, 233);
   }
 
 
 
 .text{
     display: inline-block;
-    color:  rgb(52, 16, 73);
+    color:  rgb(181, 255, 233);
     text-align: center;
     top: 150;
     left: 0;
@@ -557,7 +589,7 @@ cursor: pointer;
 
   .text2{
     display: inline-block;
-    color:  rgb(52, 16, 73);
+    color:  rgb(181, 255, 233);
     text-align: center;
     top: 250;
     left: 50;
@@ -570,7 +602,7 @@ cursor: pointer;
 
   .text3{
     display: inline-block;
-    color:  rgb(52, 16, 73);
+    color:  rgb(181, 255, 233);
     text-align: left;
     bottom: 5;
     left: 5;
@@ -580,3 +612,4 @@ cursor: pointer;
     position: absolute;
     font-family: sans-serif;
   }
+
